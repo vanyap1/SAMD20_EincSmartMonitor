@@ -6,4 +6,5 @@
 void atmel_start_init(void)
 {
 	system_init();
+	sleep_manager_init();
 }

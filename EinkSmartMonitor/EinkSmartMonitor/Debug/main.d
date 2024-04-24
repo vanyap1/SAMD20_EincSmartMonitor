@@ -82,7 +82,9 @@ main.d main.o: .././main.c ../atmel_start.h ../driver_init.h \
  ../hal/include/hal_spi_m_sync.h ../hal/include/hpl_spi_m_sync.h \
  ../hal/include/hpl_spi.h ../hal/utils/include/utils.h \
  ../hal/include/hpl_spi_sync.h ../hal/include/hal_i2c_m_sync.h \
- ../hal/include/hpl_i2c_m_sync.h \
+ ../hal/include/hpl_i2c_m_sync.h ../sleep_manager_main.h \
+ ../sleep_manager/sleep_manager.h ../hal/utils/include/utils_event.h \
+ ../hal/utils/include/utils_list.h ../hal/utils/include/events.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\string.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\newlib.h \
@@ -329,6 +331,16 @@ C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD20_DFP\1.3.165\samd20\
 ../hal/include/hal_i2c_m_sync.h:
 
 ../hal/include/hpl_i2c_m_sync.h:
+
+../sleep_manager_main.h:
+
+../sleep_manager/sleep_manager.h:
+
+../hal/utils/include/utils_event.h:
+
+../hal/utils/include/utils_list.h:
+
+../hal/utils/include/events.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\string.h:
 

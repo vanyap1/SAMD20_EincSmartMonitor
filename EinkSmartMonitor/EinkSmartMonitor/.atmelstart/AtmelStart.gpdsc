@@ -114,6 +114,9 @@
         <file category="header" condition="ARMCC, GCC, IAR" name="hri/hri_systick_d20.h"/>
         <file category="header" condition="ARMCC, GCC, IAR" name="hri/hri_tc_d20.h"/>
         <file category="header" condition="ARMCC, GCC, IAR" name="hri/hri_wdt_d20.h"/>
+        <file category="doc" condition="ARMCC, GCC, IAR" name="documentation/sleep_manager.rst"/>
+        <file category="source" condition="ARMCC, GCC, IAR" name="sleep_manager/sleep_manager.c"/>
+        <file category="header" condition="ARMCC, GCC, IAR" name="sleep_manager/sleep_manager.h"/>
         <file category="source" condition="ARMCC, GCC, IAR" name="main.c"/>
         <file category="source" condition="ARMCC, GCC, IAR" name="driver_init.c"/>
         <file category="header" condition="ARMCC, GCC, IAR" name="driver_init.h"/>
@@ -150,6 +153,8 @@
         <file category="source" condition="ARMCC, GCC, IAR" name="hpl/sercom/hpl_sercom.c"/>
         <file category="source" condition="ARMCC, GCC, IAR" name="hpl/sysctrl/hpl_sysctrl.c"/>
         <file category="source" condition="ARMCC, GCC, IAR" name="hpl/systick/hpl_systick.c"/>
+        <file category="source" condition="ARMCC, GCC, IAR" name="sleep_manager_main.c"/>
+        <file category="header" condition="ARMCC, GCC, IAR" name="sleep_manager_main.h"/>
         <file category="header" condition="ARMCC, GCC, IAR" name="atmel_start.h"/>
         <file category="source" condition="ARMCC, GCC, IAR" name="atmel_start.c"/>
         <file attr="config" category="header" condition="ARMCC, GCC, IAR" name="config/hpl_adc_config.h"/>
@@ -160,6 +165,7 @@
         <file attr="config" category="header" condition="ARMCC, GCC, IAR" name="config/hpl_sysctrl_config.h"/>
         <file attr="config" category="header" condition="ARMCC, GCC, IAR" name="config/hpl_systick_config.h"/>
         <file attr="config" category="header" condition="ARMCC, GCC, IAR" name="config/peripheral_clk_config.h"/>
+        <file attr="config" category="header" condition="ARMCC, GCC, IAR" name="config/sleep_manager_config.h"/>
         <file category="include" condition="ARMCC, GCC, IAR" name=""/>
         <file category="include" condition="ARMCC, GCC, IAR" name="config"/>
         <file category="include" condition="ARMCC, GCC, IAR" name="examples"/>
@@ -175,6 +181,9 @@
         <file category="include" condition="ARMCC, GCC, IAR" name="hpl/sysctrl"/>
         <file category="include" condition="ARMCC, GCC, IAR" name="hpl/systick"/>
         <file category="include" condition="ARMCC, GCC, IAR" name="hri"/>
+        <file category="include" condition="ARMCC, GCC, IAR" name=""/>
+        <file category="include" condition="ARMCC, GCC, IAR" name="config"/>
+        <file category="include" condition="ARMCC, GCC, IAR" name="sleep_manager"/>
         <file category="include" condition="ARMCC, GCC, IAR" name=""/>
       </files>
     </component>

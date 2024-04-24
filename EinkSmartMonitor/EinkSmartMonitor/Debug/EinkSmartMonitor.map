@@ -232,18 +232,20 @@ Discarded input sections
  .group         0x00000000        0x8 atmel_start.o
  .group         0x00000000        0x8 atmel_start.o
  .group         0x00000000        0x8 atmel_start.o
+ .group         0x00000000        0x8 atmel_start.o
+ .group         0x00000000        0x8 atmel_start.o
  .text          0x00000000        0x0 atmel_start.o
  .data          0x00000000        0x0 atmel_start.o
  .bss           0x00000000        0x0 atmel_start.o
  .text.atmel_start_init
-                0x00000000        0xc atmel_start.o
- .debug_info    0x00000000      0x386 atmel_start.o
+                0x00000000       0x14 atmel_start.o
+ .debug_info    0x00000000      0x39c atmel_start.o
  .debug_abbrev  0x00000000       0xea atmel_start.o
  .debug_loc     0x00000000       0x20 atmel_start.o
  .debug_aranges
                 0x00000000       0x20 atmel_start.o
  .debug_ranges  0x00000000       0x10 atmel_start.o
- .debug_macro   0x00000000      0x497 atmel_start.o
+ .debug_macro   0x00000000      0x4cd atmel_start.o
  .debug_macro   0x00000000      0x8aa atmel_start.o
  .debug_macro   0x00000000      0x16d atmel_start.o
  .debug_macro   0x00000000       0x22 atmel_start.o
@@ -327,8 +329,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x94 atmel_start.o
  .debug_macro   0x00000000       0xc9 atmel_start.o
  .debug_macro   0x00000000       0x70 atmel_start.o
- .debug_line    0x00000000      0x9f7 atmel_start.o
- .debug_str     0x00000000    0x442f5 atmel_start.o
+ .debug_macro   0x00000000       0x1c atmel_start.o
+ .debug_macro   0x00000000       0x10 atmel_start.o
+ .debug_line    0x00000000      0xa64 atmel_start.o
+ .debug_str     0x00000000    0x4440e atmel_start.o
  .comment       0x00000000       0x5a atmel_start.o
  .debug_frame   0x00000000       0x28 atmel_start.o
  .ARM.attributes
@@ -4310,7 +4314,7 @@ Discarded input sections
  .data          0x00000000        0x0 hpl/gclk/hpl_gclk.o
  .bss           0x00000000        0x0 hpl/gclk/hpl_gclk.o
  .text._gclk_init_generators
-                0x00000000       0x38 hpl/gclk/hpl_gclk.o
+                0x00000000       0x50 hpl/gclk/hpl_gclk.o
  .debug_macro   0x00000000      0x8aa hpl/gclk/hpl_gclk.o
  .debug_macro   0x00000000      0x16d hpl/gclk/hpl_gclk.o
  .debug_macro   0x00000000       0x22 hpl/gclk/hpl_gclk.o
@@ -21029,6 +21033,8 @@ Discarded input sections
  .group         0x00000000        0x8 main.o
  .group         0x00000000        0x8 main.o
  .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
@@ -21115,6 +21121,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x94 main.o
  .debug_macro   0x00000000       0xc9 main.o
  .debug_macro   0x00000000       0x70 main.o
+ .debug_macro   0x00000000       0x1c main.o
+ .debug_macro   0x00000000       0x10 main.o
  .debug_macro   0x00000000       0x58 main.o
  .debug_macro   0x00000000       0x35 main.o
  .debug_macro   0x00000000       0x9c main.o
@@ -21135,6 +21143,404 @@ Discarded input sections
  .debug_macro   0x00000000      0x118 main.o
  .debug_macro   0x00000000      0x337 main.o
  .debug_macro   0x00000000      0x6f9 main.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager/sleep_manager.o
+ .text          0x00000000        0x0 sleep_manager/sleep_manager.o
+ .data          0x00000000        0x0 sleep_manager/sleep_manager.o
+ .bss           0x00000000        0x0 sleep_manager/sleep_manager.o
+ .text.sleepmgr_event_callback
+                0x00000000       0x70 sleep_manager/sleep_manager.o
+ .text.sleepmgr_init
+                0x00000000       0x30 sleep_manager/sleep_manager.o
+ .text.sleepmgr_register_ready_to_sleep_callback
+                0x00000000       0x2c sleep_manager/sleep_manager.o
+ .text.sleepmgr_register_prepare_to_sleep_callback
+                0x00000000       0x2c sleep_manager/sleep_manager.o
+ .text.sleepmgr_register_wake_up_callback
+                0x00000000       0x2c sleep_manager/sleep_manager.o
+ .text.sleepmgr_sleep
+                0x00000000       0x1c sleep_manager/sleep_manager.o
+ .text.sleepmgr_wakeup
+                0x00000000       0x10 sleep_manager/sleep_manager.o
+ .text.sleepmgr_is_ready_to_sleep
+                0x00000000       0x20 sleep_manager/sleep_manager.o
+ .bss.prepare_to_sleep_cbs
+                0x00000000        0x4 sleep_manager/sleep_manager.o
+ .bss.ready_to_sleep_cbs
+                0x00000000        0x4 sleep_manager/sleep_manager.o
+ .bss.sleepmgr_event
+                0x00000000        0xc sleep_manager/sleep_manager.o
+ .bss.wake_up_cbs
+                0x00000000        0x4 sleep_manager/sleep_manager.o
+ .rodata.sleepmgr_register_ready_to_sleep_callback.str1.4
+                0x00000000       0x21 sleep_manager/sleep_manager.o
+ .debug_info    0x00000000      0x7fd sleep_manager/sleep_manager.o
+ .debug_abbrev  0x00000000      0x205 sleep_manager/sleep_manager.o
+ .debug_loc     0x00000000      0x34c sleep_manager/sleep_manager.o
+ .debug_aranges
+                0x00000000       0x58 sleep_manager/sleep_manager.o
+ .debug_ranges  0x00000000       0x60 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x3be sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x8aa sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xc9 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x16d sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x22 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x87 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x51 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xef sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x6a sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x1df sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x22 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x3f sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x1c sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x22 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xb5 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x3ad sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x67e sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x8b1 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x222 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x5e7 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x9f6 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x5b5 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x4a5 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x6e8 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x5e sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x5de sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x3ac sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0xc76 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0xd23 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x7ac sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x6ba sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x340 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x7c sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x9a sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x46 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xb2 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x6a sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x261 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x7c sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xb2 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x1c sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x1c sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x1c sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x82 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x15a sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x10 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xdc sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x100 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x100 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x100 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x100 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xfa sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xbe sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xbe sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xbe sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xbe sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xbe sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xbe sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x40 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x2c0 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0xd97 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x66 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x10 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x10 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000      0x4c3 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x6a sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0xca sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x1c sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x10 sleep_manager/sleep_manager.o
+ .debug_macro   0x00000000       0x16 sleep_manager/sleep_manager.o
+ .debug_line    0x00000000      0x988 sleep_manager/sleep_manager.o
+ .debug_str     0x00000000    0x43f77 sleep_manager/sleep_manager.o
+ .comment       0x00000000       0x5a sleep_manager/sleep_manager.o
+ .debug_frame   0x00000000       0xe0 sleep_manager/sleep_manager.o
+ .ARM.attributes
+                0x00000000       0x2e sleep_manager/sleep_manager.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .group         0x00000000        0x8 sleep_manager_main.o
+ .text          0x00000000        0x0 sleep_manager_main.o
+ .data          0x00000000        0x0 sleep_manager_main.o
+ .bss           0x00000000        0x0 sleep_manager_main.o
+ .text.sleep_cb
+                0x00000000        0x6 sleep_manager_main.o
+ .text.sleep_manager_init
+                0x00000000       0x24 sleep_manager_main.o
+ .bss.sleepmgr_cb
+                0x00000000        0x8 sleep_manager_main.o
+ .debug_info    0x00000000      0x492 sleep_manager_main.o
+ .debug_abbrev  0x00000000      0x140 sleep_manager_main.o
+ .debug_loc     0x00000000       0x20 sleep_manager_main.o
+ .debug_aranges
+                0x00000000       0x28 sleep_manager_main.o
+ .debug_ranges  0x00000000       0x18 sleep_manager_main.o
+ .debug_macro   0x00000000      0x4cd sleep_manager_main.o
+ .debug_macro   0x00000000      0x8aa sleep_manager_main.o
+ .debug_macro   0x00000000      0x16d sleep_manager_main.o
+ .debug_macro   0x00000000       0x22 sleep_manager_main.o
+ .debug_macro   0x00000000       0x87 sleep_manager_main.o
+ .debug_macro   0x00000000       0x51 sleep_manager_main.o
+ .debug_macro   0x00000000       0xef sleep_manager_main.o
+ .debug_macro   0x00000000       0x6a sleep_manager_main.o
+ .debug_macro   0x00000000      0x1df sleep_manager_main.o
+ .debug_macro   0x00000000       0x22 sleep_manager_main.o
+ .debug_macro   0x00000000       0x3f sleep_manager_main.o
+ .debug_macro   0x00000000       0x1c sleep_manager_main.o
+ .debug_macro   0x00000000       0x22 sleep_manager_main.o
+ .debug_macro   0x00000000       0xb5 sleep_manager_main.o
+ .debug_macro   0x00000000      0x3ad sleep_manager_main.o
+ .debug_macro   0x00000000      0x67e sleep_manager_main.o
+ .debug_macro   0x00000000      0x8b1 sleep_manager_main.o
+ .debug_macro   0x00000000      0x222 sleep_manager_main.o
+ .debug_macro   0x00000000      0x5e7 sleep_manager_main.o
+ .debug_macro   0x00000000      0x9f6 sleep_manager_main.o
+ .debug_macro   0x00000000      0x5b5 sleep_manager_main.o
+ .debug_macro   0x00000000      0x4a5 sleep_manager_main.o
+ .debug_macro   0x00000000      0x6e8 sleep_manager_main.o
+ .debug_macro   0x00000000       0x5e sleep_manager_main.o
+ .debug_macro   0x00000000      0x5de sleep_manager_main.o
+ .debug_macro   0x00000000      0x3ac sleep_manager_main.o
+ .debug_macro   0x00000000      0xc76 sleep_manager_main.o
+ .debug_macro   0x00000000      0xd23 sleep_manager_main.o
+ .debug_macro   0x00000000      0x7ac sleep_manager_main.o
+ .debug_macro   0x00000000      0x6ba sleep_manager_main.o
+ .debug_macro   0x00000000      0x340 sleep_manager_main.o
+ .debug_macro   0x00000000       0x7c sleep_manager_main.o
+ .debug_macro   0x00000000       0x9a sleep_manager_main.o
+ .debug_macro   0x00000000       0x46 sleep_manager_main.o
+ .debug_macro   0x00000000       0xb2 sleep_manager_main.o
+ .debug_macro   0x00000000       0x6a sleep_manager_main.o
+ .debug_macro   0x00000000      0x261 sleep_manager_main.o
+ .debug_macro   0x00000000       0x7c sleep_manager_main.o
+ .debug_macro   0x00000000       0xb2 sleep_manager_main.o
+ .debug_macro   0x00000000       0x1c sleep_manager_main.o
+ .debug_macro   0x00000000       0x1c sleep_manager_main.o
+ .debug_macro   0x00000000       0x1c sleep_manager_main.o
+ .debug_macro   0x00000000       0x82 sleep_manager_main.o
+ .debug_macro   0x00000000      0x15a sleep_manager_main.o
+ .debug_macro   0x00000000       0x10 sleep_manager_main.o
+ .debug_macro   0x00000000       0xdc sleep_manager_main.o
+ .debug_macro   0x00000000      0x100 sleep_manager_main.o
+ .debug_macro   0x00000000      0x100 sleep_manager_main.o
+ .debug_macro   0x00000000      0x100 sleep_manager_main.o
+ .debug_macro   0x00000000      0x100 sleep_manager_main.o
+ .debug_macro   0x00000000       0xfa sleep_manager_main.o
+ .debug_macro   0x00000000       0xbe sleep_manager_main.o
+ .debug_macro   0x00000000       0xbe sleep_manager_main.o
+ .debug_macro   0x00000000       0xbe sleep_manager_main.o
+ .debug_macro   0x00000000       0xbe sleep_manager_main.o
+ .debug_macro   0x00000000       0xbe sleep_manager_main.o
+ .debug_macro   0x00000000       0xbe sleep_manager_main.o
+ .debug_macro   0x00000000       0x40 sleep_manager_main.o
+ .debug_macro   0x00000000      0x2c0 sleep_manager_main.o
+ .debug_macro   0x00000000      0xd97 sleep_manager_main.o
+ .debug_macro   0x00000000       0x66 sleep_manager_main.o
+ .debug_macro   0x00000000       0x10 sleep_manager_main.o
+ .debug_macro   0x00000000       0x10 sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000      0x4c3 sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000       0x6a sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000       0xca sleep_manager_main.o
+ .debug_macro   0x00000000       0x1c sleep_manager_main.o
+ .debug_macro   0x00000000       0x16 sleep_manager_main.o
+ .debug_macro   0x00000000       0x94 sleep_manager_main.o
+ .debug_macro   0x00000000       0xc9 sleep_manager_main.o
+ .debug_macro   0x00000000       0x70 sleep_manager_main.o
+ .debug_macro   0x00000000       0x1c sleep_manager_main.o
+ .debug_macro   0x00000000       0x10 sleep_manager_main.o
+ .debug_line    0x00000000      0xa73 sleep_manager_main.o
+ .debug_str     0x00000000    0x444d2 sleep_manager_main.o
+ .comment       0x00000000       0x5a sleep_manager_main.o
+ .debug_frame   0x00000000       0x38 sleep_manager_main.o
+ .ARM.attributes
+                0x00000000       0x2e sleep_manager_main.o
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
  .text          0x00000000      0x1d4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
@@ -21737,6 +22143,8 @@ LOAD libs/display/u8x8_u8toa.o
 LOAD libs/lora_rf/RFM69.o
 LOAD libs/rtc/rtc.o
 LOAD main.o
+LOAD sleep_manager/sleep_manager.o
+LOAD sleep_manager_main.o
 START GROUP
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libm.a
 END GROUP
@@ -21752,7 +22160,7 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
                 0x00001000                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:DEFINED (__stack_size__)?__stack_size__:0x1000
 
-.text           0x00000000     0x4060
+.text           0x00000000     0x40c0
                 0x00000000                . = ALIGN (0x4)
                 0x00000000                _sfixed = .
  *(.vectors .vectors.*)
@@ -21873,444 +22281,444 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin
                 0x0000073c       0xbc hpl/eic/hpl_eic.o
                 0x0000073c                EIC_Handler
  .text._gclk_init_generators_by_fref
-                0x000007f8       0x40 hpl/gclk/hpl_gclk.o
+                0x000007f8       0x5c hpl/gclk/hpl_gclk.o
                 0x000007f8                _gclk_init_generators_by_fref
  .text._pm_init
-                0x00000838       0x20 hpl/pm/hpl_pm.o
-                0x00000838                _pm_init
+                0x00000854       0x20 hpl/pm/hpl_pm.o
+                0x00000854                _pm_init
  .text._sercom_get_hardware_index
-                0x00000858       0x10 hpl/sercom/hpl_sercom.o
+                0x00000874       0x10 hpl/sercom/hpl_sercom.o
  .text._spi_sync_enable
-                0x00000868       0x1e hpl/sercom/hpl_sercom.o
- *fill*         0x00000886        0x2 
+                0x00000884       0x1e hpl/sercom/hpl_sercom.o
+ *fill*         0x000008a2        0x2 
  .text._get_i2cm_index
-                0x00000888       0x44 hpl/sercom/hpl_sercom.o
+                0x000008a4       0x44 hpl/sercom/hpl_sercom.o
  .text._sercom_i2c_sync_send_address
-                0x000008cc      0x198 hpl/sercom/hpl_sercom.o
+                0x000008e8      0x198 hpl/sercom/hpl_sercom.o
  .text._i2c_m_sync_init
-                0x00000a64       0xac hpl/sercom/hpl_sercom.o
-                0x00000a64                _i2c_m_sync_init
+                0x00000a80       0xac hpl/sercom/hpl_sercom.o
+                0x00000a80                _i2c_m_sync_init
  .text._i2c_m_sync_enable
-                0x00000b10       0x78 hpl/sercom/hpl_sercom.o
-                0x00000b10                _i2c_m_sync_enable
+                0x00000b2c       0x78 hpl/sercom/hpl_sercom.o
+                0x00000b2c                _i2c_m_sync_enable
  .text._i2c_m_sync_transfer
-                0x00000b88      0x21c hpl/sercom/hpl_sercom.o
-                0x00000b88                _i2c_m_sync_transfer
+                0x00000ba4      0x21c hpl/sercom/hpl_sercom.o
+                0x00000ba4                _i2c_m_sync_transfer
  .text._spi_m_sync_init
-                0x00000da4      0x1b8 hpl/sercom/hpl_sercom.o
-                0x00000da4                _spi_m_sync_init
+                0x00000dc0      0x1b8 hpl/sercom/hpl_sercom.o
+                0x00000dc0                _spi_m_sync_init
  .text._spi_m_sync_enable
-                0x00000f5c       0x38 hpl/sercom/hpl_sercom.o
-                0x00000f5c                _spi_m_sync_enable
+                0x00000f78       0x38 hpl/sercom/hpl_sercom.o
+                0x00000f78                _spi_m_sync_enable
  .text._spi_m_sync_trans
-                0x00000f94       0xe8 hpl/sercom/hpl_sercom.o
-                0x00000f94                _spi_m_sync_trans
+                0x00000fb0       0xe8 hpl/sercom/hpl_sercom.o
+                0x00000fb0                _spi_m_sync_trans
  .text._sysctrl_init_sources
-                0x0000107c       0x34 hpl/sysctrl/hpl_sysctrl.o
-                0x0000107c                _sysctrl_init_sources
+                0x00001098       0x34 hpl/sysctrl/hpl_sysctrl.o
+                0x00001098                _sysctrl_init_sources
  .text._sysctrl_init_referenced_generators
-                0x000010b0       0x78 hpl/sysctrl/hpl_sysctrl.o
-                0x000010b0                _sysctrl_init_referenced_generators
+                0x000010cc       0x78 hpl/sysctrl/hpl_sysctrl.o
+                0x000010cc                _sysctrl_init_referenced_generators
  .text._system_time_init
-                0x00001128       0x14 hpl/systick/hpl_systick.o
-                0x00001128                _system_time_init
+                0x00001144       0x14 hpl/systick/hpl_systick.o
+                0x00001144                _system_time_init
  .text._delay_init
-                0x0000113c        0xc hpl/systick/hpl_systick.o
-                0x0000113c                _delay_init
+                0x00001158        0xc hpl/systick/hpl_systick.o
+                0x00001158                _delay_init
  .text._delay_cycles
-                0x00001148       0x40 hpl/systick/hpl_systick.o
-                0x00001148                _delay_cycles
+                0x00001164       0x40 hpl/systick/hpl_systick.o
+                0x00001164                _delay_cycles
  .text.I2C_RTC_Handler
-                0x00001188       0x14 hw_driver.o
+                0x000011a4       0x14 hw_driver.o
  .text.RF_int_Handler
-                0x0000119c       0x14 hw_driver.o
+                0x000011b8       0x14 hw_driver.o
  .text.RTC_IRQ_Ready
-                0x000011b0       0x10 hw_driver.o
-                0x000011b0                RTC_IRQ_Ready
+                0x000011cc       0x10 hw_driver.o
+                0x000011cc                RTC_IRQ_Ready
  .text.SPI0_WriteBuff
-                0x000011c0       0x1c hw_driver.o
-                0x000011c0                SPI0_WriteBuff
+                0x000011dc       0x1c hw_driver.o
+                0x000011dc                SPI0_WriteBuff
  .text.RTC_write_batch
-                0x000011dc       0x34 hw_driver.o
-                0x000011dc                RTC_write_batch
+                0x000011f8       0x34 hw_driver.o
+                0x000011f8                RTC_write_batch
  .text.RTC_read_batch
-                0x00001210       0x30 hw_driver.o
-                0x00001210                RTC_read_batch
+                0x0000122c       0x30 hw_driver.o
+                0x0000122c                RTC_read_batch
  .text.GPIO_init
-                0x00001240      0x114 hw_driver.o
-                0x00001240                GPIO_init
+                0x0000125c      0x114 hw_driver.o
+                0x0000125c                GPIO_init
  .text.SPI_init
-                0x00001354      0x10c hw_driver.o
-                0x00001354                SPI_init
+                0x00001370      0x10c hw_driver.o
+                0x00001370                SPI_init
  .text.I2C_init
-                0x00001460       0xa8 hw_driver.o
-                0x00001460                I2C_init
+                0x0000147c       0xa8 hw_driver.o
+                0x0000147c                I2C_init
  .text.IRQ_init
-                0x00001508       0x8c hw_driver.o
-                0x00001508                IRQ_init
+                0x00001524       0x8c hw_driver.o
+                0x00001524                IRQ_init
  .text.mcu_init
-                0x00001594       0x50 hw_driver.o
-                0x00001594                mcu_init
+                0x000015b0       0x50 hw_driver.o
+                0x000015b0                mcu_init
  .text.epdReset
-                0x000015e4       0x1c libs/display/displaySupport.o
-                0x000015e4                epdReset
- .text.epdSelect
                 0x00001600       0x1c libs/display/displaySupport.o
-                0x00001600                epdSelect
- .text.epdCommand
+                0x00001600                epdReset
+ .text.epdSelect
                 0x0000161c       0x1c libs/display/displaySupport.o
-                0x0000161c                epdCommand
+                0x0000161c                epdSelect
+ .text.epdCommand
+                0x00001638       0x1c libs/display/displaySupport.o
+                0x00001638                epdCommand
  .text.epdWriteBuff
-                0x00001638        0xc libs/display/displaySupport.o
-                0x00001638                epdWriteBuff
+                0x00001654        0xc libs/display/displaySupport.o
+                0x00001654                epdWriteBuff
  .text.screenSpi
-                0x00001644       0x8c libs/display/displaySupport.o
-                0x00001644                screenSpi
+                0x00001660       0x8c libs/display/displaySupport.o
+                0x00001660                screenSpi
  .text.u8g2_send_tile_row
-                0x000016d0       0x24 libs/display/u8g2_buffer.o
+                0x000016ec       0x24 libs/display/u8g2_buffer.o
  .text.u8g2_send_buffer
-                0x000016f4       0x3c libs/display/u8g2_buffer.o
+                0x00001710       0x3c libs/display/u8g2_buffer.o
  .text.u8g2_ClearBuffer
-                0x00001730       0x1c libs/display/u8g2_buffer.o
-                0x00001730                u8g2_ClearBuffer
+                0x0000174c       0x1c libs/display/u8g2_buffer.o
+                0x0000174c                u8g2_ClearBuffer
  .text.u8g2_SendBuffer
-                0x0000174c       0x18 libs/display/u8g2_buffer.o
-                0x0000174c                u8g2_SendBuffer
+                0x00001768       0x18 libs/display/u8g2_buffer.o
+                0x00001768                u8g2_SendBuffer
  .text.u8g2_m_19_304_f
-                0x00001764        0xc libs/display/u8g2_d_memory.o
-                0x00001764                u8g2_m_19_304_f
+                0x00001780        0xc libs/display/u8g2_d_memory.o
+                0x00001780                u8g2_m_19_304_f
  .text.u8g2_Setup_GDEY0154_152x304_f
-                0x00001770       0x48 libs/display/u8g2_d_setup.o
-                0x00001770                u8g2_Setup_GDEY0154_152x304_f
+                0x0000178c       0x48 libs/display/u8g2_d_setup.o
+                0x0000178c                u8g2_Setup_GDEY0154_152x304_f
  .text.u8g2_font_get_byte
-                0x000017b8        0x4 libs/display/u8g2_font.o
+                0x000017d4        0x4 libs/display/u8g2_font.o
  .text.u8g2_font_get_word
-                0x000017bc        0xe libs/display/u8g2_font.o
+                0x000017d8        0xe libs/display/u8g2_font.o
  .text.u8g2_font_calc_vref_font
-                0x000017ca        0x4 libs/display/u8g2_font.o
-                0x000017ca                u8g2_font_calc_vref_font
- *fill*         0x000017ce        0x2 
+                0x000017e6        0x4 libs/display/u8g2_font.o
+                0x000017e6                u8g2_font_calc_vref_font
+ *fill*         0x000017ea        0x2 
  .text.u8g2_read_font_info
-                0x000017d0       0xb4 libs/display/u8g2_font.o
-                0x000017d0                u8g2_read_font_info
+                0x000017ec       0xb4 libs/display/u8g2_font.o
+                0x000017ec                u8g2_read_font_info
  .text.u8g2_font_decode_get_unsigned_bits
-                0x00001884       0x3a libs/display/u8g2_font.o
-                0x00001884                u8g2_font_decode_get_unsigned_bits
- *fill*         0x000018be        0x2 
+                0x000018a0       0x3a libs/display/u8g2_font.o
+                0x000018a0                u8g2_font_decode_get_unsigned_bits
+ *fill*         0x000018da        0x2 
  .text.u8g2_font_setup_decode
-                0x000018c0       0x38 libs/display/u8g2_font.o
+                0x000018dc       0x38 libs/display/u8g2_font.o
  .text.u8g2_font_decode_get_signed_bits
-                0x000018f8       0x1c libs/display/u8g2_font.o
-                0x000018f8                u8g2_font_decode_get_signed_bits
+                0x00001914       0x1c libs/display/u8g2_font.o
+                0x00001914                u8g2_font_decode_get_signed_bits
  .text.u8g2_add_vector_y
-                0x00001914       0x24 libs/display/u8g2_font.o
-                0x00001914                u8g2_add_vector_y
+                0x00001930       0x24 libs/display/u8g2_font.o
+                0x00001930                u8g2_add_vector_y
  .text.u8g2_add_vector_x
-                0x00001938       0x24 libs/display/u8g2_font.o
-                0x00001938                u8g2_add_vector_x
+                0x00001954       0x24 libs/display/u8g2_font.o
+                0x00001954                u8g2_add_vector_x
  .text.u8g2_font_decode_len
-                0x0000195c       0xf8 libs/display/u8g2_font.o
-                0x0000195c                u8g2_font_decode_len
+                0x00001978       0xf8 libs/display/u8g2_font.o
+                0x00001978                u8g2_font_decode_len
  .text.u8g2_font_decode_glyph
-                0x00001a54      0x190 libs/display/u8g2_font.o
-                0x00001a54                u8g2_font_decode_glyph
+                0x00001a70      0x190 libs/display/u8g2_font.o
+                0x00001a70                u8g2_font_decode_glyph
  .text.u8g2_font_get_glyph_data
-                0x00001be4       0x78 libs/display/u8g2_font.o
-                0x00001be4                u8g2_font_get_glyph_data
+                0x00001c00       0x78 libs/display/u8g2_font.o
+                0x00001c00                u8g2_font_get_glyph_data
  .text.u8g2_font_draw_glyph
-                0x00001c5c       0x30 libs/display/u8g2_font.o
+                0x00001c78       0x30 libs/display/u8g2_font.o
  .text.u8g2_DrawGlyph
-                0x00001c8c       0x58 libs/display/u8g2_font.o
-                0x00001c8c                u8g2_DrawGlyph
+                0x00001ca8       0x58 libs/display/u8g2_font.o
+                0x00001ca8                u8g2_DrawGlyph
  .text.u8g2_draw_string
-                0x00001ce4       0x94 libs/display/u8g2_font.o
+                0x00001d00       0x94 libs/display/u8g2_font.o
  .text.u8g2_DrawStr
-                0x00001d78       0x14 libs/display/u8g2_font.o
-                0x00001d78                u8g2_DrawStr
+                0x00001d94       0x14 libs/display/u8g2_font.o
+                0x00001d94                u8g2_DrawStr
  .text.u8g2_UpdateRefHeight
-                0x00001d8c       0x60 libs/display/u8g2_font.o
-                0x00001d8c                u8g2_UpdateRefHeight
+                0x00001da8       0x60 libs/display/u8g2_font.o
+                0x00001da8                u8g2_UpdateRefHeight
  .text.u8g2_SetFontPosBaseline
-                0x00001dec        0xc libs/display/u8g2_font.o
-                0x00001dec                u8g2_SetFontPosBaseline
+                0x00001e08        0xc libs/display/u8g2_font.o
+                0x00001e08                u8g2_SetFontPosBaseline
  .text.u8g2_SetFont
-                0x00001df8       0x24 libs/display/u8g2_font.o
-                0x00001df8                u8g2_SetFont
+                0x00001e14       0x24 libs/display/u8g2_font.o
+                0x00001e14                u8g2_SetFont
  .text.u8g2_clip_intersection2
-                0x00001e1c       0x40 libs/display/u8g2_hvline.o
+                0x00001e38       0x40 libs/display/u8g2_hvline.o
  .text.u8g2_draw_hv_line_2dir
-                0x00001e5c       0x18 libs/display/u8g2_hvline.o
-                0x00001e5c                u8g2_draw_hv_line_2dir
+                0x00001e78       0x18 libs/display/u8g2_hvline.o
+                0x00001e78                u8g2_draw_hv_line_2dir
  .text.u8g2_DrawHVLine
-                0x00001e74       0xd4 libs/display/u8g2_hvline.o
-                0x00001e74                u8g2_DrawHVLine
+                0x00001e90       0xd4 libs/display/u8g2_hvline.o
+                0x00001e90                u8g2_DrawHVLine
  .text.u8g2_DrawPixel
-                0x00001f48       0x38 libs/display/u8g2_hvline.o
-                0x00001f48                u8g2_DrawPixel
+                0x00001f64       0x38 libs/display/u8g2_hvline.o
+                0x00001f64                u8g2_DrawPixel
  .text.u8g2_is_intersection_decision_tree
-                0x00001f80       0x2c libs/display/u8g2_intersection.o
-                0x00001f80                u8g2_is_intersection_decision_tree
+                0x00001f9c       0x2c libs/display/u8g2_intersection.o
+                0x00001f9c                u8g2_is_intersection_decision_tree
  .text.u8g2_IsIntersection
-                0x00001fac       0x30 libs/display/u8g2_intersection.o
-                0x00001fac                u8g2_IsIntersection
+                0x00001fc8       0x30 libs/display/u8g2_intersection.o
+                0x00001fc8                u8g2_IsIntersection
  .text.u8g2_DrawLine
-                0x00001fdc       0xe0 libs/display/u8g2_line.o
-                0x00001fdc                u8g2_DrawLine
+                0x00001ff8       0xe0 libs/display/u8g2_line.o
+                0x00001ff8                u8g2_DrawLine
  .text.u8g2_ll_hvline_vertical_top_lsb
-                0x000020bc       0xa4 libs/display/u8g2_ll_hvline.o
-                0x000020bc                u8g2_ll_hvline_vertical_top_lsb
+                0x000020d8       0xa4 libs/display/u8g2_ll_hvline.o
+                0x000020d8                u8g2_ll_hvline_vertical_top_lsb
  .text.u8g2_update_dimension_common
-                0x00002160       0x46 libs/display/u8g2_setup.o
- *fill*         0x000021a6        0x2 
+                0x0000217c       0x46 libs/display/u8g2_setup.o
+ *fill*         0x000021c2        0x2 
  .text.u8g2_update_dimension_r0
-                0x000021a8        0xc libs/display/u8g2_setup.o
-                0x000021a8                u8g2_update_dimension_r0
+                0x000021c4        0xc libs/display/u8g2_setup.o
+                0x000021c4                u8g2_update_dimension_r0
  .text.u8g2_apply_clip_window
-                0x000021b4       0x78 libs/display/u8g2_setup.o
+                0x000021d0       0x78 libs/display/u8g2_setup.o
  .text.u8g2_update_page_win_r0
-                0x0000222c       0x2c libs/display/u8g2_setup.o
-                0x0000222c                u8g2_update_page_win_r0
+                0x00002248       0x2c libs/display/u8g2_setup.o
+                0x00002248                u8g2_update_page_win_r0
  .text.u8g2_draw_l90_r0
-                0x00002258       0x18 libs/display/u8g2_setup.o
-                0x00002258                u8g2_draw_l90_r0
+                0x00002274       0x18 libs/display/u8g2_setup.o
+                0x00002274                u8g2_draw_l90_r0
  .text.u8g2_SetMaxClipWindow
-                0x00002270       0x1e libs/display/u8g2_setup.o
-                0x00002270                u8g2_SetMaxClipWindow
- *fill*         0x0000228e        0x2 
+                0x0000228c       0x1e libs/display/u8g2_setup.o
+                0x0000228c                u8g2_SetMaxClipWindow
+ *fill*         0x000022aa        0x2 
  .text.u8g2_SetupBuffer
-                0x00002290       0x50 libs/display/u8g2_setup.o
-                0x00002290                u8g2_SetupBuffer
+                0x000022ac       0x50 libs/display/u8g2_setup.o
+                0x000022ac                u8g2_SetupBuffer
  .text.u8x8_ascii_next
-                0x000022e0       0x18 libs/display/u8x8_8x8.o
-                0x000022e0                u8x8_ascii_next
+                0x000022fc       0x18 libs/display/u8x8_8x8.o
+                0x000022fc                u8x8_ascii_next
  .text.u8x8_utf8_init
-                0x000022f8        0x8 libs/display/u8x8_8x8.o
-                0x000022f8                u8x8_utf8_init
+                0x00002314        0x8 libs/display/u8x8_8x8.o
+                0x00002314                u8x8_utf8_init
  .text.u8x8_byte_SetDC
-                0x00002300        0xe libs/display/u8x8_byte.o
-                0x00002300                u8x8_byte_SetDC
+                0x0000231c        0xe libs/display/u8x8_byte.o
+                0x0000231c                u8x8_byte_SetDC
  .text.u8x8_byte_SendBytes
-                0x0000230e        0xe libs/display/u8x8_byte.o
-                0x0000230e                u8x8_byte_SendBytes
+                0x0000232a        0xe libs/display/u8x8_byte.o
+                0x0000232a                u8x8_byte_SendBytes
  .text.u8x8_byte_SendByte
-                0x0000231c       0x18 libs/display/u8x8_byte.o
-                0x0000231c                u8x8_byte_SendByte
+                0x00002338       0x18 libs/display/u8x8_byte.o
+                0x00002338                u8x8_byte_SendByte
  .text.u8x8_cad_SendCmd
-                0x00002334        0xe libs/display/u8x8_cad.o
-                0x00002334                u8x8_cad_SendCmd
- .text.u8x8_cad_SendArg
-                0x00002342        0xe libs/display/u8x8_cad.o
-                0x00002342                u8x8_cad_SendArg
- .text.u8x8_cad_SendData
                 0x00002350        0xe libs/display/u8x8_cad.o
-                0x00002350                u8x8_cad_SendData
- .text.u8x8_cad_StartTransfer
+                0x00002350                u8x8_cad_SendCmd
+ .text.u8x8_cad_SendArg
                 0x0000235e        0xe libs/display/u8x8_cad.o
-                0x0000235e                u8x8_cad_StartTransfer
- .text.u8x8_cad_EndTransfer
+                0x0000235e                u8x8_cad_SendArg
+ .text.u8x8_cad_SendData
                 0x0000236c        0xe libs/display/u8x8_cad.o
-                0x0000236c                u8x8_cad_EndTransfer
- *fill*         0x0000237a        0x2 
+                0x0000236c                u8x8_cad_SendData
+ .text.u8x8_cad_StartTransfer
+                0x0000237a        0xe libs/display/u8x8_cad.o
+                0x0000237a                u8x8_cad_StartTransfer
+ .text.u8x8_cad_EndTransfer
+                0x00002388        0xe libs/display/u8x8_cad.o
+                0x00002388                u8x8_cad_EndTransfer
+ *fill*         0x00002396        0x2 
  .text.u8x8_cad_SendSequence
-                0x0000237c       0x70 libs/display/u8x8_cad.o
-                0x0000237c                u8x8_cad_SendSequence
+                0x00002398       0x70 libs/display/u8x8_cad.o
+                0x00002398                u8x8_cad_SendSequence
  .text.u8x8_cad_011
-                0x000023ec       0x68 libs/display/u8x8_cad.o
-                0x000023ec                u8x8_cad_011
+                0x00002408       0x68 libs/display/u8x8_cad.o
+                0x00002408                u8x8_cad_011
  .text.u8x8_d_helper_display_setup_memory
-                0x00002454        0xa libs/display/u8x8_display.o
-                0x00002454                u8x8_d_helper_display_setup_memory
- *fill*         0x0000245e        0x2 
+                0x00002470        0xa libs/display/u8x8_display.o
+                0x00002470                u8x8_d_helper_display_setup_memory
+ *fill*         0x0000247a        0x2 
  .text.u8x8_d_helper_display_init
-                0x00002460       0x58 libs/display/u8x8_display.o
-                0x00002460                u8x8_d_helper_display_init
+                0x0000247c       0x58 libs/display/u8x8_display.o
+                0x0000247c                u8x8_d_helper_display_init
  .text.u8x8_DrawTile
-                0x000024b8       0x1e libs/display/u8x8_display.o
-                0x000024b8                u8x8_DrawTile
+                0x000024d4       0x1e libs/display/u8x8_display.o
+                0x000024d4                u8x8_DrawTile
  .text.u8x8_SetupMemory
-                0x000024d6        0xe libs/display/u8x8_display.o
-                0x000024d6                u8x8_SetupMemory
- .text.u8x8_InitDisplay
-                0x000024e4        0xe libs/display/u8x8_display.o
-                0x000024e4                u8x8_InitDisplay
- .text.u8x8_RefreshDisplay
                 0x000024f2        0xe libs/display/u8x8_display.o
-                0x000024f2                u8x8_RefreshDisplay
+                0x000024f2                u8x8_SetupMemory
+ .text.u8x8_InitDisplay
+                0x00002500        0xe libs/display/u8x8_display.o
+                0x00002500                u8x8_InitDisplay
+ .text.u8x8_RefreshDisplay
+                0x0000250e        0xe libs/display/u8x8_display.o
+                0x0000250e                u8x8_RefreshDisplay
  .text.u8x8_convert_tile_for_ssd1607
-                0x00002500       0x20 libs/display/u8x8_d_gdey0154_152x304.o
+                0x0000251c       0x20 libs/display/u8x8_d_gdey0154_152x304.o
  .text.u8x8_d_gdey0154_152x304_first_init
-                0x00002520       0x78 libs/display/u8x8_d_gdey0154_152x304.o
+                0x0000253c       0x78 libs/display/u8x8_d_gdey0154_152x304.o
  .text.u8x8_d_ssd1607_draw_tile
-                0x00002598       0xc0 libs/display/u8x8_d_gdey0154_152x304.o
+                0x000025b4       0xc0 libs/display/u8x8_d_gdey0154_152x304.o
  .text.u8x8_d_gdey0154_152x304
-                0x00002658       0x90 libs/display/u8x8_d_gdey0154_152x304.o
-                0x00002658                u8x8_d_gdey0154_152x304
+                0x00002674       0x90 libs/display/u8x8_d_gdey0154_152x304.o
+                0x00002674                u8x8_d_gdey0154_152x304
  .text.u8x8_gpio_call
-                0x000026e8        0xa libs/display/u8x8_gpio.o
-                0x000026e8                u8x8_gpio_call
+                0x00002704        0xa libs/display/u8x8_gpio.o
+                0x00002704                u8x8_gpio_call
  .text.u8x8_dummy_cb
-                0x000026f2        0x4 libs/display/u8x8_setup.o
-                0x000026f2                u8x8_dummy_cb
- *fill*         0x000026f6        0x2 
+                0x0000270e        0x4 libs/display/u8x8_setup.o
+                0x0000270e                u8x8_dummy_cb
+ *fill*         0x00002712        0x2 
  .text.u8x8_SetupDefaults
-                0x000026f8       0x28 libs/display/u8x8_setup.o
-                0x000026f8                u8x8_SetupDefaults
+                0x00002714       0x28 libs/display/u8x8_setup.o
+                0x00002714                u8x8_SetupDefaults
  .text.u8x8_Setup
-                0x00002720       0x28 libs/display/u8x8_setup.o
-                0x00002720                u8x8_Setup
+                0x0000273c       0x28 libs/display/u8x8_setup.o
+                0x0000273c                u8x8_Setup
  .text.rtc_int_enable
-                0x00002748       0x44 libs/rtc/rtc.o
-                0x00002748                rtc_int_enable
+                0x00002764       0x44 libs/rtc/rtc.o
+                0x00002764                rtc_int_enable
  .text.BCDtoDEC
-                0x0000278c       0x16 libs/rtc/rtc.o
-                0x0000278c                BCDtoDEC
- *fill*         0x000027a2        0x2 
+                0x000027a8       0x16 libs/rtc/rtc.o
+                0x000027a8                BCDtoDEC
+ *fill*         0x000027be        0x2 
  .text.rtc_sync
-                0x000027a4       0x54 libs/rtc/rtc.o
-                0x000027a4                rtc_sync
+                0x000027c0       0x54 libs/rtc/rtc.o
+                0x000027c0                rtc_sync
  .text.DECtoBCD
-                0x000027f8       0x24 libs/rtc/rtc.o
-                0x000027f8                DECtoBCD
- .text.rtc_set  0x0000281c       0x5c libs/rtc/rtc.o
-                0x0000281c                rtc_set
- .text.main     0x00002878      0x22c main.o
-                0x00002878                main
- .text          0x00002aa4      0x114 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
-                0x00002aa4                __udivsi3
-                0x00002aa4                __aeabi_uidiv
-                0x00002bb0                __aeabi_uidivmod
- .text          0x00002bb8        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
-                0x00002bb8                __aeabi_idiv0
-                0x00002bb8                __aeabi_ldiv0
- .text          0x00002bbc       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_ffssi2.o)
-                0x00002bbc                __ffssi2
- .text          0x00002bd0       0x40 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_ctzsi2.o)
-                0x00002bd0                __ctzsi2
+                0x00002814       0x24 libs/rtc/rtc.o
+                0x00002814                DECtoBCD
+ .text.rtc_set  0x00002838       0x5c libs/rtc/rtc.o
+                0x00002838                rtc_set
+ .text.main     0x00002894      0x268 main.o
+                0x00002894                main
+ .text          0x00002afc      0x114 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+                0x00002afc                __udivsi3
+                0x00002afc                __aeabi_uidiv
+                0x00002c08                __aeabi_uidivmod
+ .text          0x00002c10        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                0x00002c10                __aeabi_idiv0
+                0x00002c10                __aeabi_ldiv0
+ .text          0x00002c14       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_ffssi2.o)
+                0x00002c14                __ffssi2
+ .text          0x00002c28       0x40 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_ctzsi2.o)
+                0x00002c28                __ctzsi2
  .text.__libc_init_array
-                0x00002c10       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
-                0x00002c10                __libc_init_array
- .text.memset   0x00002c58       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
-                0x00002c58                memset
+                0x00002c68       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+                0x00002c68                __libc_init_array
+ .text.memset   0x00002cb0       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+                0x00002cb0                memset
  *(.glue_7t)
- .glue_7t       0x00002c68        0x0 linker stubs
+ .glue_7t       0x00002cc0        0x0 linker stubs
  *(.glue_7)
- .glue_7        0x00002c68        0x0 linker stubs
+ .glue_7        0x00002cc0        0x0 linker stubs
  *(.rodata .rodata* .gnu.linkonce.r.*)
  .rodata.i2c_m_sync_init.str1.4
-                0x00002c68       0x1c hal/src/hal_i2c_m_sync.o
+                0x00002cc0       0x1c hal/src/hal_i2c_m_sync.o
  .rodata.io_write.str1.4
-                0x00002c84       0x14 hal/src/hal_io.o
+                0x00002cdc       0x14 hal/src/hal_io.o
  .rodata.spi_m_sync_set_func_ptr.str1.4
-                0x00002c98       0x1c hal/src/hal_spi_m_sync.o
+                0x00002cf0       0x1c hal/src/hal_spi_m_sync.o
  .rodata.EIC_Handler.str1.4
-                0x00002cb4       0x15 hpl/eic/hpl_eic.o
- *fill*         0x00002cc9        0x3 
- .rodata._map   0x00002ccc       0x10 hpl/eic/hpl_eic.o
+                0x00002d0c       0x15 hpl/eic/hpl_eic.o
+ *fill*         0x00002d21        0x3 
+ .rodata._map   0x00002d24       0x10 hpl/eic/hpl_eic.o
  .rodata._get_sercom_index.str1.4
-                0x00002cdc       0x1b hpl/sercom/hpl_sercom.o
- *fill*         0x00002cf7        0x1 
+                0x00002d34       0x1b hpl/sercom/hpl_sercom.o
+ *fill*         0x00002d4f        0x1 
  .rodata._i2cms
-                0x00002cf8       0x18 hpl/sercom/hpl_sercom.o
+                0x00002d50       0x18 hpl/sercom/hpl_sercom.o
  .rodata.sercomspi_regs
-                0x00002d10       0x10 hpl/sercom/hpl_sercom.o
+                0x00002d68       0x10 hpl/sercom/hpl_sercom.o
  .rodata.screenSpi
-                0x00002d20       0xe0 libs/display/displaySupport.o
+                0x00002d78       0xe0 libs/display/displaySupport.o
  .rodata.u8g2_font_5x8_tf
-                0x00002e00      0x6b3 libs/display/u8g2_fonts.o
-                0x00002e00                u8g2_font_5x8_tf
- *fill*         0x000034b3        0x1 
+                0x00002e58      0x6b3 libs/display/u8g2_fonts.o
+                0x00002e58                u8g2_font_5x8_tf
+ *fill*         0x0000350b        0x1 
  .rodata.u8g2_font_ncenB14_tr
-                0x000034b4      0x828 libs/display/u8g2_fonts.o
-                0x000034b4                u8g2_font_ncenB14_tr
+                0x0000350c      0x828 libs/display/u8g2_fonts.o
+                0x0000350c                u8g2_font_ncenB14_tr
  .rodata.u8g2_font_open_iconic_weather_6x_t
-                0x00003cdc      0x253 libs/display/u8g2_fonts.o
-                0x00003cdc                u8g2_font_open_iconic_weather_6x_t
- *fill*         0x00003f2f        0x1 
+                0x00003d34      0x253 libs/display/u8g2_fonts.o
+                0x00003d34                u8g2_font_open_iconic_weather_6x_t
+ *fill*         0x00003f87        0x1 
  .rodata.u8g2_cb_r0
-                0x00003f30        0xc libs/display/u8g2_setup.o
-                0x00003f30                u8g2_cb_r0
+                0x00003f88        0xc libs/display/u8g2_setup.o
+                0x00003f88                u8g2_cb_r0
  .rodata.u8x8_cad_011
-                0x00003f3c       0x18 libs/display/u8x8_cad.o
+                0x00003f94       0x18 libs/display/u8x8_cad.o
  .rodata.u8x8_d_gdey0154_152x304
-                0x00003f54       0x20 libs/display/u8x8_d_gdey0154_152x304.o
+                0x00003fac       0x20 libs/display/u8x8_d_gdey0154_152x304.o
  .rodata.u8x8_d_gdey0154_152x304_init_seq
-                0x00003f74       0x35 libs/display/u8x8_d_gdey0154_152x304.o
- *fill*         0x00003fa9        0x3 
+                0x00003fcc       0x35 libs/display/u8x8_d_gdey0154_152x304.o
+ *fill*         0x00004001        0x3 
  .rodata.u8x8_d_ssd1607_to_display_seq
-                0x00003fac        0x5 libs/display/u8x8_d_gdey0154_152x304.o
- *fill*         0x00003fb1        0x3 
+                0x00004004        0x5 libs/display/u8x8_d_gdey0154_152x304.o
+ *fill*         0x00004009        0x3 
  .rodata.u8x8_ssd1607_200x200_display_info
-                0x00003fb4       0x18 libs/display/u8x8_d_gdey0154_152x304.o
+                0x0000400c       0x18 libs/display/u8x8_d_gdey0154_152x304.o
  .rodata.main.str1.4
-                0x00003fcc       0x74 main.o
+                0x00004024       0x7c main.o
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00004040                . = ALIGN (0x4)
+                0x000040a0                . = ALIGN (0x4)
  *(.init)
- .init          0x00004040        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
-                0x00004040                _init
- .init          0x00004044        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
-                0x0000404c                . = ALIGN (0x4)
-                0x0000404c                __preinit_array_start = .
+ .init          0x000040a0        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+                0x000040a0                _init
+ .init          0x000040a4        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+                0x000040ac                . = ALIGN (0x4)
+                0x000040ac                __preinit_array_start = .
  *(.preinit_array)
-                0x0000404c                __preinit_array_end = .
-                0x0000404c                . = ALIGN (0x4)
-                0x0000404c                __init_array_start = .
+                0x000040ac                __preinit_array_end = .
+                0x000040ac                . = ALIGN (0x4)
+                0x000040ac                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x0000404c        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
-                0x00004050                __init_array_end = .
-                0x00004050                . = ALIGN (0x4)
+ .init_array    0x000040ac        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+                0x000040b0                __init_array_end = .
+                0x000040b0                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x00004050                . = ALIGN (0x4)
+                0x000040b0                . = ALIGN (0x4)
  *(.fini)
- .fini          0x00004050        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
-                0x00004050                _fini
- .fini          0x00004054        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
-                0x0000405c                . = ALIGN (0x4)
-                0x0000405c                __fini_array_start = .
+ .fini          0x000040b0        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+                0x000040b0                _fini
+ .fini          0x000040b4        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+                0x000040bc                . = ALIGN (0x4)
+                0x000040bc                __fini_array_start = .
  *(.fini_array)
- .fini_array    0x0000405c        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .fini_array    0x000040bc        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
  *(SORT(.fini_array.*))
-                0x00004060                __fini_array_end = .
+                0x000040c0                __fini_array_end = .
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x00004060                . = ALIGN (0x4)
-                0x00004060                _efixed = .
+                0x000040c0                . = ALIGN (0x4)
+                0x000040c0                _efixed = .
                 [!provide]                PROVIDE (__exidx_start, .)
 
-.vfp11_veneer   0x00004060        0x0
- .vfp11_veneer  0x00004060        0x0 linker stubs
+.vfp11_veneer   0x000040c0        0x0
+ .vfp11_veneer  0x000040c0        0x0 linker stubs
 
-.v4_bx          0x00004060        0x0
- .v4_bx         0x00004060        0x0 linker stubs
+.v4_bx          0x000040c0        0x0
+ .v4_bx         0x000040c0        0x0 linker stubs
 
-.iplt           0x00004060        0x0
- .iplt          0x00004060        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.iplt           0x000040c0        0x0
+ .iplt          0x000040c0        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
-.eh_frame       0x00004060        0x0
- .eh_frame      0x00004060        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.eh_frame       0x000040c0        0x0
+ .eh_frame      0x000040c0        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
-.rel.dyn        0x00004060        0x0
- .rel.iplt      0x00004060        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.rel.dyn        0x000040c0        0x0
+ .rel.iplt      0x000040c0        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
-.jcr            0x00004060        0x0
- .jcr           0x00004060        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.jcr            0x000040c0        0x0
+ .jcr           0x000040c0        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
-.igot.plt       0x00004060        0x0
- .igot.plt      0x00004060        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.igot.plt       0x000040c0        0x0
+ .igot.plt      0x000040c0        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
                 [!provide]                PROVIDE (__exidx_end, .)
-                0x00004060                . = ALIGN (0x4)
-                0x00004060                _etext = .
+                0x000040c0                . = ALIGN (0x4)
+                0x000040c0                _etext = .
 
-.relocate       0x20000000       0x18 load address 0x00004060
+.relocate       0x20000000       0x18 load address 0x000040c0
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _srelocate = .
  *(.ramfunc .ramfunc.*)
@@ -22333,7 +22741,7 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin
  *fill*         0x20000016        0x2 
                 0x20000018                _erelocate = .
 
-.bss            0x20000018     0x17a8 load address 0x00004078
+.bss            0x20000018     0x17a8 load address 0x000040d8
                 0x20000018                . = ALIGN (0x4)
                 0x20000018                _sbss = .
                 0x20000018                _szero = .
@@ -22366,7 +22774,7 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin
                 0x200017c0                _ebss = .
                 0x200017c0                _ezero = .
 
-.stack          0x200017c0     0x1000 load address 0x00005820
+.stack          0x200017c0     0x1000 load address 0x00005880
                 0x200017c0                . = ALIGN (0x8)
                 0x200017c0                _sstack = .
                 0x200027c0                . = (. + STACK_SIZE)
@@ -22515,7 +22923,7 @@ OUTPUT(EinkSmartMonitor.elf elf32-littlearm)
  .comment       0x00000059       0x5a libs/rtc/rtc.o
  .comment       0x00000059       0x5a main.o
 
-.debug_info     0x00000000    0xc2413
+.debug_info     0x00000000    0xc2b89
  .debug_info    0x00000000      0x9c8 Device_Startup/startup_samd20.o
  .debug_info    0x000009c8     0x6a64 driver_init.o
  .debug_info    0x0000742c      0x1d1 hal/src/hal_atomic.o
@@ -22528,34 +22936,34 @@ OUTPUT(EinkSmartMonitor.elf elf32-littlearm)
  .debug_info    0x00009139      0x7e3 hpl/core/hpl_core_m0plus_base.o
  .debug_info    0x0000991c      0x68a hpl/core/hpl_init.o
  .debug_info    0x00009fa6     0x1f91 hpl/eic/hpl_eic.o
- .debug_info    0x0000bf37      0x5ad hpl/gclk/hpl_gclk.o
- .debug_info    0x0000c4e4      0xbfe hpl/pm/hpl_pm.o
- .debug_info    0x0000d0e2     0x9c4a hpl/sercom/hpl_sercom.o
- .debug_info    0x00016d2c     0x158e hpl/sysctrl/hpl_sysctrl.o
- .debug_info    0x000182ba      0x25e hpl/systick/hpl_systick.o
- .debug_info    0x00018518     0x69e9 hw_driver.o
- .debug_info    0x0001ef01     0x873c libs/display/displaySupport.o
- .debug_info    0x0002763d     0x893c libs/display/u8g2_buffer.o
- .debug_info    0x0002ff79     0xadf9 libs/display/u8g2_d_memory.o
- .debug_info    0x0003ad72    0x347bd libs/display/u8g2_d_setup.o
- .debug_info    0x0006f52f     0x99a8 libs/display/u8g2_font.o
- .debug_info    0x00078ed7     0xeda2 libs/display/u8g2_fonts.o
- .debug_info    0x00087c79     0x7d85 libs/display/u8g2_hvline.o
- .debug_info    0x0008f9fe     0x7b6a libs/display/u8g2_intersection.o
- .debug_info    0x00097568     0x7bc9 libs/display/u8g2_line.o
- .debug_info    0x0009f131     0x7bed libs/display/u8g2_ll_hvline.o
- .debug_info    0x000a6d1e     0x8cbd libs/display/u8g2_setup.o
- .debug_info    0x000af9db     0x17ed libs/display/u8x8_8x8.o
- .debug_info    0x000b11c8     0x1838 libs/display/u8x8_byte.o
- .debug_info    0x000b2a00     0x213c libs/display/u8x8_cad.o
- .debug_info    0x000b4b3c     0x1120 libs/display/u8x8_display.o
- .debug_info    0x000b5c5c     0x10b5 libs/display/u8x8_d_gdey0154_152x304.o
- .debug_info    0x000b6d11      0xb21 libs/display/u8x8_gpio.o
- .debug_info    0x000b7832      0xc82 libs/display/u8x8_setup.o
- .debug_info    0x000b84b4      0x79f libs/rtc/rtc.o
- .debug_info    0x000b8c53     0x97c0 main.o
+ .debug_info    0x0000bf37      0x679 hpl/gclk/hpl_gclk.o
+ .debug_info    0x0000c5b0      0xbfe hpl/pm/hpl_pm.o
+ .debug_info    0x0000d1ae     0x9c4a hpl/sercom/hpl_sercom.o
+ .debug_info    0x00016df8     0x158e hpl/sysctrl/hpl_sysctrl.o
+ .debug_info    0x00018386      0x25e hpl/systick/hpl_systick.o
+ .debug_info    0x000185e4     0x69e9 hw_driver.o
+ .debug_info    0x0001efcd     0x873c libs/display/displaySupport.o
+ .debug_info    0x00027709     0x893c libs/display/u8g2_buffer.o
+ .debug_info    0x00030045     0xadf9 libs/display/u8g2_d_memory.o
+ .debug_info    0x0003ae3e    0x347bd libs/display/u8g2_d_setup.o
+ .debug_info    0x0006f5fb     0x99a8 libs/display/u8g2_font.o
+ .debug_info    0x00078fa3     0xeda2 libs/display/u8g2_fonts.o
+ .debug_info    0x00087d45     0x7d85 libs/display/u8g2_hvline.o
+ .debug_info    0x0008faca     0x7b6a libs/display/u8g2_intersection.o
+ .debug_info    0x00097634     0x7bc9 libs/display/u8g2_line.o
+ .debug_info    0x0009f1fd     0x7bed libs/display/u8g2_ll_hvline.o
+ .debug_info    0x000a6dea     0x8cbd libs/display/u8g2_setup.o
+ .debug_info    0x000afaa7     0x17ed libs/display/u8x8_8x8.o
+ .debug_info    0x000b1294     0x1838 libs/display/u8x8_byte.o
+ .debug_info    0x000b2acc     0x213c libs/display/u8x8_cad.o
+ .debug_info    0x000b4c08     0x1120 libs/display/u8x8_display.o
+ .debug_info    0x000b5d28     0x10b5 libs/display/u8x8_d_gdey0154_152x304.o
+ .debug_info    0x000b6ddd      0xb21 libs/display/u8x8_gpio.o
+ .debug_info    0x000b78fe      0xc82 libs/display/u8x8_setup.o
+ .debug_info    0x000b8580      0x79f libs/rtc/rtc.o
+ .debug_info    0x000b8d1f     0x9e6a main.o
 
-.debug_abbrev   0x00000000     0x51a5
+.debug_abbrev   0x00000000     0x51d8
  .debug_abbrev  0x00000000      0x1d7 Device_Startup/startup_samd20.o
  .debug_abbrev  0x000001d7      0x388 driver_init.o
  .debug_abbrev  0x0000055f      0x144 hal/src/hal_atomic.o
@@ -22593,9 +23001,9 @@ OUTPUT(EinkSmartMonitor.elf elf32-littlearm)
  .debug_abbrev  0x0000495e      0x10e libs/display/u8x8_gpio.o
  .debug_abbrev  0x00004a6c      0x1b8 libs/display/u8x8_setup.o
  .debug_abbrev  0x00004c24      0x1d9 libs/rtc/rtc.o
- .debug_abbrev  0x00004dfd      0x3a8 main.o
+ .debug_abbrev  0x00004dfd      0x3db main.o
 
-.debug_loc      0x00000000    0x5134d
+.debug_loc      0x00000000    0x514c9
  .debug_loc     0x00000000       0x78 Device_Startup/startup_samd20.o
  .debug_loc     0x00000078     0x1838 driver_init.o
  .debug_loc     0x000018b0       0x13 hal/src/hal_atomic.o
@@ -22607,31 +23015,31 @@ OUTPUT(EinkSmartMonitor.elf elf32-littlearm)
  .debug_loc     0x00002d16      0x29d hpl/core/hpl_core_m0plus_base.o
  .debug_loc     0x00002fb3       0x4c hpl/core/hpl_init.o
  .debug_loc     0x00002fff      0x566 hpl/eic/hpl_eic.o
- .debug_loc     0x00003565      0x190 hpl/gclk/hpl_gclk.o
- .debug_loc     0x000036f5      0x11b hpl/pm/hpl_pm.o
- .debug_loc     0x00003810     0x687d hpl/sercom/hpl_sercom.o
- .debug_loc     0x0000a08d      0x269 hpl/sysctrl/hpl_sysctrl.o
- .debug_loc     0x0000a2f6       0xf9 hpl/systick/hpl_systick.o
- .debug_loc     0x0000a3ef     0x1e8d hw_driver.o
- .debug_loc     0x0000c27c      0x5c7 libs/display/displaySupport.o
- .debug_loc     0x0000c843      0x78f libs/display/u8g2_buffer.o
- .debug_loc     0x0000cfd2     0x17b8 libs/display/u8g2_d_memory.o
- .debug_loc     0x0000e78a    0x39640 libs/display/u8g2_d_setup.o
- .debug_loc     0x00047dca     0x2660 libs/display/u8g2_font.o
- .debug_loc     0x0004a42a      0x6ba libs/display/u8g2_hvline.o
- .debug_loc     0x0004aae4      0x179 libs/display/u8g2_intersection.o
- .debug_loc     0x0004ac5d      0x2e8 libs/display/u8g2_line.o
- .debug_loc     0x0004af45      0x43f libs/display/u8g2_ll_hvline.o
- .debug_loc     0x0004b384      0xf0a libs/display/u8g2_setup.o
- .debug_loc     0x0004c28e     0x1354 libs/display/u8x8_8x8.o
- .debug_loc     0x0004d5e2     0x10c4 libs/display/u8x8_byte.o
- .debug_loc     0x0004e6a6     0x1ca1 libs/display/u8x8_cad.o
- .debug_loc     0x00050347      0x516 libs/display/u8x8_display.o
- .debug_loc     0x0005085d      0x3ac libs/display/u8x8_d_gdey0154_152x304.o
- .debug_loc     0x00050c09       0x83 libs/display/u8x8_gpio.o
- .debug_loc     0x00050c8c      0x25d libs/display/u8x8_setup.o
- .debug_loc     0x00050ee9      0x29c libs/rtc/rtc.o
- .debug_loc     0x00051185      0x1c8 main.o
+ .debug_loc     0x00003565      0x27c hpl/gclk/hpl_gclk.o
+ .debug_loc     0x000037e1      0x11b hpl/pm/hpl_pm.o
+ .debug_loc     0x000038fc     0x687d hpl/sercom/hpl_sercom.o
+ .debug_loc     0x0000a179      0x269 hpl/sysctrl/hpl_sysctrl.o
+ .debug_loc     0x0000a3e2       0xf9 hpl/systick/hpl_systick.o
+ .debug_loc     0x0000a4db     0x1e8d hw_driver.o
+ .debug_loc     0x0000c368      0x5c7 libs/display/displaySupport.o
+ .debug_loc     0x0000c92f      0x78f libs/display/u8g2_buffer.o
+ .debug_loc     0x0000d0be     0x17b8 libs/display/u8g2_d_memory.o
+ .debug_loc     0x0000e876    0x39640 libs/display/u8g2_d_setup.o
+ .debug_loc     0x00047eb6     0x2660 libs/display/u8g2_font.o
+ .debug_loc     0x0004a516      0x6ba libs/display/u8g2_hvline.o
+ .debug_loc     0x0004abd0      0x179 libs/display/u8g2_intersection.o
+ .debug_loc     0x0004ad49      0x2e8 libs/display/u8g2_line.o
+ .debug_loc     0x0004b031      0x43f libs/display/u8g2_ll_hvline.o
+ .debug_loc     0x0004b470      0xf0a libs/display/u8g2_setup.o
+ .debug_loc     0x0004c37a     0x1354 libs/display/u8x8_8x8.o
+ .debug_loc     0x0004d6ce     0x10c4 libs/display/u8x8_byte.o
+ .debug_loc     0x0004e792     0x1ca1 libs/display/u8x8_cad.o
+ .debug_loc     0x00050433      0x516 libs/display/u8x8_display.o
+ .debug_loc     0x00050949      0x3ac libs/display/u8x8_d_gdey0154_152x304.o
+ .debug_loc     0x00050cf5       0x83 libs/display/u8x8_gpio.o
+ .debug_loc     0x00050d78      0x25d libs/display/u8x8_setup.o
+ .debug_loc     0x00050fd5      0x29c libs/rtc/rtc.o
+ .debug_loc     0x00051271      0x258 main.o
 
 .debug_aranges  0x00000000     0x3400
  .debug_aranges
@@ -22750,7 +23158,7 @@ OUTPUT(EinkSmartMonitor.elf elf32-littlearm)
  .debug_ranges  0x00003358       0x38 libs/rtc/rtc.o
  .debug_ranges  0x00003390       0x10 main.o
 
-.debug_macro    0x00000000     0x7aeb
+.debug_macro    0x00000000     0x7b27
  .debug_macro   0x00000000      0x27a Device_Startup/startup_samd20.o
  .debug_macro   0x0000027a       0x39 Device_Startup/startup_samd20.o
  .debug_macro   0x000002b3      0x4c6 driver_init.o
@@ -22811,9 +23219,9 @@ OUTPUT(EinkSmartMonitor.elf elf32-littlearm)
  .debug_macro   0x00006e54       0xd2 libs/display/u8x8_setup.o
  .debug_macro   0x00006f26      0x496 libs/rtc/rtc.o
  .debug_macro   0x000073bc       0xdc libs/rtc/rtc.o
- .debug_macro   0x00007498      0x653 main.o
+ .debug_macro   0x00007498      0x68f main.o
 
-.debug_line     0x00000000    0x186b4
+.debug_line     0x00000000    0x18765
  .debug_line    0x00000000      0x662 Device_Startup/startup_samd20.o
  .debug_line    0x00000662      0xcc3 driver_init.o
  .debug_line    0x00001325      0x876 hal/src/hal_atomic.o
@@ -22826,110 +23234,110 @@ OUTPUT(EinkSmartMonitor.elf elf32-littlearm)
  .debug_line    0x000051ab      0x9ef hpl/core/hpl_core_m0plus_base.o
  .debug_line    0x00005b9a      0x8d7 hpl/core/hpl_init.o
  .debug_line    0x00006471      0xa38 hpl/eic/hpl_eic.o
- .debug_line    0x00006ea9      0x8ba hpl/gclk/hpl_gclk.o
- .debug_line    0x00007763      0x8e6 hpl/pm/hpl_pm.o
- .debug_line    0x00008049     0x25d3 hpl/sercom/hpl_sercom.o
- .debug_line    0x0000a61c      0x950 hpl/sysctrl/hpl_sysctrl.o
- .debug_line    0x0000af6c      0x8cb hpl/systick/hpl_systick.o
- .debug_line    0x0000b837      0xdcb hw_driver.o
- .debug_line    0x0000c602      0xab1 libs/display/displaySupport.o
- .debug_line    0x0000d0b3      0x4b8 libs/display/u8g2_buffer.o
- .debug_line    0x0000d56b      0xfff libs/display/u8g2_d_memory.o
- .debug_line    0x0000e56a     0x492f libs/display/u8g2_d_setup.o
- .debug_line    0x00012e99      0x8ff libs/display/u8g2_font.o
- .debug_line    0x00013798      0x314 libs/display/u8g2_fonts.o
- .debug_line    0x00013aac      0x3fc libs/display/u8g2_hvline.o
- .debug_line    0x00013ea8      0x354 libs/display/u8g2_intersection.o
- .debug_line    0x000141fc      0x368 libs/display/u8g2_line.o
- .debug_line    0x00014564      0x3c5 libs/display/u8g2_ll_hvline.o
- .debug_line    0x00014929      0x5b3 libs/display/u8g2_setup.o
- .debug_line    0x00014edc      0x5f2 libs/display/u8x8_8x8.o
- .debug_line    0x000154ce      0x591 libs/display/u8x8_byte.o
- .debug_line    0x00015a5f      0x70c libs/display/u8x8_cad.o
- .debug_line    0x0001616b      0x432 libs/display/u8x8_display.o
- .debug_line    0x0001659d      0x3e0 libs/display/u8x8_d_gdey0154_152x304.o
- .debug_line    0x0001697d      0x31a libs/display/u8x8_gpio.o
- .debug_line    0x00016c97      0x368 libs/display/u8x8_setup.o
- .debug_line    0x00016fff      0xa9a libs/rtc/rtc.o
- .debug_line    0x00017a99      0xc1b main.o
+ .debug_line    0x00006ea9      0x8da hpl/gclk/hpl_gclk.o
+ .debug_line    0x00007783      0x8e6 hpl/pm/hpl_pm.o
+ .debug_line    0x00008069     0x25d3 hpl/sercom/hpl_sercom.o
+ .debug_line    0x0000a63c      0x950 hpl/sysctrl/hpl_sysctrl.o
+ .debug_line    0x0000af8c      0x8cb hpl/systick/hpl_systick.o
+ .debug_line    0x0000b857      0xdcb hw_driver.o
+ .debug_line    0x0000c622      0xab1 libs/display/displaySupport.o
+ .debug_line    0x0000d0d3      0x4b8 libs/display/u8g2_buffer.o
+ .debug_line    0x0000d58b      0xfff libs/display/u8g2_d_memory.o
+ .debug_line    0x0000e58a     0x492f libs/display/u8g2_d_setup.o
+ .debug_line    0x00012eb9      0x8ff libs/display/u8g2_font.o
+ .debug_line    0x000137b8      0x314 libs/display/u8g2_fonts.o
+ .debug_line    0x00013acc      0x3fc libs/display/u8g2_hvline.o
+ .debug_line    0x00013ec8      0x354 libs/display/u8g2_intersection.o
+ .debug_line    0x0001421c      0x368 libs/display/u8g2_line.o
+ .debug_line    0x00014584      0x3c5 libs/display/u8g2_ll_hvline.o
+ .debug_line    0x00014949      0x5b3 libs/display/u8g2_setup.o
+ .debug_line    0x00014efc      0x5f2 libs/display/u8x8_8x8.o
+ .debug_line    0x000154ee      0x591 libs/display/u8x8_byte.o
+ .debug_line    0x00015a7f      0x70c libs/display/u8x8_cad.o
+ .debug_line    0x0001618b      0x432 libs/display/u8x8_display.o
+ .debug_line    0x000165bd      0x3e0 libs/display/u8x8_d_gdey0154_152x304.o
+ .debug_line    0x0001699d      0x31a libs/display/u8x8_gpio.o
+ .debug_line    0x00016cb7      0x368 libs/display/u8x8_setup.o
+ .debug_line    0x0001701f      0xa9a libs/rtc/rtc.o
+ .debug_line    0x00017ab9      0xcac main.o
 
-.debug_str      0x00000000    0x6e0f9
+.debug_str      0x00000000    0x6e1fe
  .debug_str     0x00000000    0x3f8de Device_Startup/startup_samd20.o
                               0x3fc35 (size before relaxing)
- .debug_str     0x0003f8de     0x5fc0 driver_init.o
-                              0x45ac6 (size before relaxing)
- .debug_str     0x0004589e       0x9c hal/src/hal_atomic.o
+ .debug_str     0x0003f8de     0x5fbd driver_init.o
+                              0x45ac3 (size before relaxing)
+ .debug_str     0x0004589b       0x9c hal/src/hal_atomic.o
                               0x43646 (size before relaxing)
- .debug_str     0x0004593a       0x9b hal/src/hal_delay.o
+ .debug_str     0x00045937       0x9b hal/src/hal_delay.o
                               0x436b0 (size before relaxing)
- .debug_str     0x000459d5       0xcc hal/src/hal_ext_irq.o
+ .debug_str     0x000459d2       0xcc hal/src/hal_ext_irq.o
                               0x4370b (size before relaxing)
- .debug_str     0x00045aa1      0x177 hal/src/hal_i2c_m_sync.o
+ .debug_str     0x00045a9e      0x177 hal/src/hal_i2c_m_sync.o
                               0x43f49 (size before relaxing)
- .debug_str     0x00045c18       0x2c hal/src/hal_io.o
+ .debug_str     0x00045c15       0x2c hal/src/hal_io.o
                               0x436f3 (size before relaxing)
- .debug_str     0x00045c44      0x2ef hal/src/hal_spi_m_sync.o
+ .debug_str     0x00045c41      0x2ef hal/src/hal_spi_m_sync.o
                               0x43fe0 (size before relaxing)
- .debug_str     0x00045f33       0x2a hal/utils/src/utils_assert.o
+ .debug_str     0x00045f30       0x2a hal/utils/src/utils_assert.o
                               0x43656 (size before relaxing)
- .debug_str     0x00045f5d      0x2b9 hpl/core/hpl_core_m0plus_base.o
-                              0x4413f (size before relaxing)
- .debug_str     0x00046216      0x1df hpl/core/hpl_init.o
-                              0x43cc2 (size before relaxing)
- .debug_str     0x000463f5     0x3b16 hpl/eic/hpl_eic.o
+ .debug_str     0x00045f5a      0x2b9 hpl/core/hpl_core_m0plus_base.o
+                              0x4413c (size before relaxing)
+ .debug_str     0x00046213      0x1df hpl/core/hpl_init.o
+                              0x43cbf (size before relaxing)
+ .debug_str     0x000463f2     0x3b16 hpl/eic/hpl_eic.o
                               0x4793a (size before relaxing)
- .debug_str     0x00049f0b      0x823 hpl/gclk/hpl_gclk.o
-                              0x43f47 (size before relaxing)
+ .debug_str     0x00049f08      0x826 hpl/gclk/hpl_gclk.o
+                              0x43f4a (size before relaxing)
  .debug_str     0x0004a72e      0x194 hpl/pm/hpl_pm.o
-                              0x43e2b (size before relaxing)
- .debug_str     0x0004a8c2     0x40b9 hpl/sercom/hpl_sercom.o
-                              0x48b83 (size before relaxing)
- .debug_str     0x0004e97b     0x1159 hpl/sysctrl/hpl_sysctrl.o
+                              0x43e28 (size before relaxing)
+ .debug_str     0x0004a8c2     0x40b8 hpl/sercom/hpl_sercom.o
+                              0x48b7f (size before relaxing)
+ .debug_str     0x0004e97a     0x1159 hpl/sysctrl/hpl_sysctrl.o
                               0x4493e (size before relaxing)
- .debug_str     0x0004fad4       0xcd hpl/systick/hpl_systick.o
+ .debug_str     0x0004fad3       0xcd hpl/systick/hpl_systick.o
                               0x4369e (size before relaxing)
- .debug_str     0x0004fba1      0x18e hw_driver.o
-                              0x4596a (size before relaxing)
- .debug_str     0x0004fd2f     0xf94c libs/display/displaySupport.o
+ .debug_str     0x0004fba0      0x18e hw_driver.o
+                              0x45967 (size before relaxing)
+ .debug_str     0x0004fd2e     0xf94c libs/display/displaySupport.o
                               0x55b1f (size before relaxing)
- .debug_str     0x0005f67b      0x1fd libs/display/u8g2_buffer.o
+ .debug_str     0x0005f67a      0x1fd libs/display/u8g2_buffer.o
                               0x16e95 (size before relaxing)
- .debug_str     0x0005f878      0xa7a libs/display/u8g2_d_memory.o
+ .debug_str     0x0005f877      0xa7a libs/display/u8g2_d_memory.o
                               0x15fe5 (size before relaxing)
- .debug_str     0x000602f2     0x6f89 libs/display/u8g2_d_setup.o
+ .debug_str     0x000602f1     0x6f89 libs/display/u8g2_d_setup.o
                               0x1cf41 (size before relaxing)
- .debug_str     0x0006727b      0x629 libs/display/u8g2_font.o
+ .debug_str     0x0006727a      0x629 libs/display/u8g2_font.o
                               0x15bcf (size before relaxing)
- .debug_str     0x000678a4       0x1d libs/display/u8g2_fonts.o
+ .debug_str     0x000678a3       0x1d libs/display/u8g2_fonts.o
                               0x15588 (size before relaxing)
- .debug_str     0x000678c1       0xfb libs/display/u8g2_hvline.o
+ .debug_str     0x000678c0       0xfb libs/display/u8g2_hvline.o
                               0x15982 (size before relaxing)
- .debug_str     0x000679bc       0x84 libs/display/u8g2_intersection.o
+ .debug_str     0x000679bb       0x84 libs/display/u8g2_intersection.o
                               0x155ff (size before relaxing)
- .debug_str     0x00067a40       0x42 libs/display/u8g2_line.o
+ .debug_str     0x00067a3f       0x42 libs/display/u8g2_line.o
                               0x155ca (size before relaxing)
- .debug_str     0x00067a82       0x6e libs/display/u8g2_ll_hvline.o
+ .debug_str     0x00067a81       0x6e libs/display/u8g2_ll_hvline.o
                               0x1596a (size before relaxing)
- .debug_str     0x00067af0      0x217 libs/display/u8g2_setup.o
+ .debug_str     0x00067aef      0x217 libs/display/u8g2_setup.o
                               0x16fa3 (size before relaxing)
- .debug_str     0x00067d07      0x1c0 libs/display/u8x8_8x8.o
+ .debug_str     0x00067d06      0x1c0 libs/display/u8x8_8x8.o
                                0x78c7 (size before relaxing)
- .debug_str     0x00067ec7      0x16d libs/display/u8x8_byte.o
+ .debug_str     0x00067ec6      0x16d libs/display/u8x8_byte.o
                                0x7885 (size before relaxing)
- .debug_str     0x00068034      0x1ca libs/display/u8x8_cad.o
+ .debug_str     0x00068033      0x1ca libs/display/u8x8_cad.o
                                0x7962 (size before relaxing)
- .debug_str     0x000681fe      0x14e libs/display/u8x8_display.o
+ .debug_str     0x000681fd      0x14e libs/display/u8x8_display.o
                                0x7874 (size before relaxing)
- .debug_str     0x0006834c      0x13a libs/display/u8x8_d_gdey0154_152x304.o
+ .debug_str     0x0006834b      0x13a libs/display/u8x8_d_gdey0154_152x304.o
                                0x7919 (size before relaxing)
- .debug_str     0x00068486       0x1c libs/display/u8x8_gpio.o
+ .debug_str     0x00068485       0x1c libs/display/u8x8_gpio.o
                                0x76fb (size before relaxing)
- .debug_str     0x000684a2       0x64 libs/display/u8x8_setup.o
+ .debug_str     0x000684a1       0x64 libs/display/u8x8_setup.o
                                0x779e (size before relaxing)
- .debug_str     0x00068506      0x26c libs/rtc/rtc.o
+ .debug_str     0x00068505      0x26c libs/rtc/rtc.o
                               0x44555 (size before relaxing)
- .debug_str     0x00068772     0x5987 main.o
-                              0x5d723 (size before relaxing)
+ .debug_str     0x00068771     0x5a8d main.o
+                              0x5d9c0 (size before relaxing)
 
 .debug_frame    0x00000000     0xabe0
  .debug_frame   0x00000000       0x38 Device_Startup/startup_samd20.o

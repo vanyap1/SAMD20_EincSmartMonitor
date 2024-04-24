@@ -304,3 +304,7 @@ libs\rtc\rtc.c
 
 main.c
 
+sleep_manager\sleep_manager.c
+
+sleep_manager_main.c
+

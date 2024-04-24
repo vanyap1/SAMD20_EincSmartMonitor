@@ -30,15 +30,15 @@
     <EraseKey />
     <AsfFrameworkConfig>
       <framework-data xmlns="">
-  <options />
-  <configurations />
-  <files />
-  <documentation help="" />
-  <offline-documentation help="" />
-  <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.52.0" />
-  </dependencies>
-</framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.52.0" />
+        </dependencies>
+      </framework-data>
     </AsfFrameworkConfig>
     <Compiler>gcc</Compiler>
     <configurator>AtmelStart</configurator>
@@ -120,6 +120,8 @@
           <AcmeProjectActionInfo Action="File" Source="hri/hri_systick_d20.h" IsConfig="false" Hash="VVyXk1k2eHrbUo6ZdBA96w" />
           <AcmeProjectActionInfo Action="File" Source="hri/hri_tc_d20.h" IsConfig="false" Hash="v4iBtmlsZVEJ7WY0nNXUFQ" />
           <AcmeProjectActionInfo Action="File" Source="hri/hri_wdt_d20.h" IsConfig="false" Hash="CvxZhuVaogZGBinSJmwxJQ" />
+          <AcmeProjectActionInfo Action="File" Source="sleep_manager/sleep_manager.c" IsConfig="false" Hash="Y0V7+lcjJKIdSeL4ueYZ6w" />
+          <AcmeProjectActionInfo Action="File" Source="sleep_manager/sleep_manager.h" IsConfig="false" Hash="wbQ70QzJlJHL0fiCXAXTpQ" />
           <AcmeProjectActionInfo Action="File" Source="main.c" IsConfig="false" Hash="k0AH7j+BrmdFhBPzCCMptA" />
           <AcmeProjectActionInfo Action="File" Source="driver_init.c" IsConfig="false" Hash="fSVOORlP1lgsuVDN4U8phg" />
           <AcmeProjectActionInfo Action="File" Source="driver_init.h" IsConfig="false" Hash="lJh8URSIrfl3eAfLbNaE3Q" />
@@ -156,16 +158,19 @@
           <AcmeProjectActionInfo Action="File" Source="hpl/sercom/hpl_sercom.c" IsConfig="false" Hash="clDXj0A05kuk+Lb00kQtaA" />
           <AcmeProjectActionInfo Action="File" Source="hpl/sysctrl/hpl_sysctrl.c" IsConfig="false" Hash="pr7bTfut1VhrZG+305XgtQ" />
           <AcmeProjectActionInfo Action="File" Source="hpl/systick/hpl_systick.c" IsConfig="false" Hash="YYWQVH26EDBDzYTUwepAcA" />
-          <AcmeProjectActionInfo Action="File" Source="atmel_start.h" IsConfig="false" Hash="9RBG5E2ViQiSP2Gn4/FGpA" />
-          <AcmeProjectActionInfo Action="File" Source="atmel_start.c" IsConfig="false" Hash="1RHIE7zTtYK4DURNPUqF9w" />
+          <AcmeProjectActionInfo Action="File" Source="sleep_manager_main.c" IsConfig="false" Hash="/h7lw4TySqB1SNXNvE2bcA" />
+          <AcmeProjectActionInfo Action="File" Source="sleep_manager_main.h" IsConfig="false" Hash="qmr52536J7oYjSRDqK5qCA" />
+          <AcmeProjectActionInfo Action="File" Source="atmel_start.h" IsConfig="false" Hash="2tV6NS3zLO6lMZTeJ1WQ+Q" />
+          <AcmeProjectActionInfo Action="File" Source="atmel_start.c" IsConfig="false" Hash="M7JixrvrHLkEpjzV6VcZdg" />
           <AcmeProjectActionInfo Action="File" Source="config/hpl_adc_config.h" IsConfig="true" Hash="i0cYkmEgN2s94otZkFJyEQ" />
           <AcmeProjectActionInfo Action="File" Source="config/hpl_eic_config.h" IsConfig="true" Hash="iOI6QSRFmL9ImLO+HhLOXg" />
-          <AcmeProjectActionInfo Action="File" Source="config/hpl_gclk_config.h" IsConfig="true" Hash="yZ9eb+h0LW3RVoNUX5mM8A" />
+          <AcmeProjectActionInfo Action="File" Source="config/hpl_gclk_config.h" IsConfig="true" Hash="qXHZk/dWbJHHlsdlrfxz7Q" />
           <AcmeProjectActionInfo Action="File" Source="config/hpl_pm_config.h" IsConfig="true" Hash="6Wazg22vmf8JKOgHzwlDQA" />
           <AcmeProjectActionInfo Action="File" Source="config/hpl_sercom_config.h" IsConfig="true" Hash="EMlpVxNYjwLG3poe2B/B1w" />
           <AcmeProjectActionInfo Action="File" Source="config/hpl_sysctrl_config.h" IsConfig="true" Hash="Dqmf2q5ZrlmxRH6hzwn0Wg" />
           <AcmeProjectActionInfo Action="File" Source="config/hpl_systick_config.h" IsConfig="true" Hash="tlT3lNDKWFe82MiGWfQzcA" />
-          <AcmeProjectActionInfo Action="File" Source="config/peripheral_clk_config.h" IsConfig="true" Hash="myiLRiw49hF3UVmw+lTv7g" />
+          <AcmeProjectActionInfo Action="File" Source="config/peripheral_clk_config.h" IsConfig="true" Hash="4LJI5Ku+XUihrGCF33KkFA" />
+          <AcmeProjectActionInfo Action="File" Source="config/sleep_manager_config.h" IsConfig="true" Hash="DOAee9YybT6XYwA7idJl4g" />
         </AcmeActionInfos>
         <NonsecureFilesInfo />
       </AcmeProjectConfig>
@@ -218,6 +223,7 @@
       <Value>../hpl/sysctrl</Value>
       <Value>../hpl/systick</Value>
       <Value>../hri</Value>
+      <Value>../sleep_manager</Value>
       <Value>%24(PackRepoDir)\atmel\SAMD20_DFP\1.3.165\samd20\include</Value>
     </ListValues>
   </armgcc.compiler.directories.IncludePaths>
@@ -255,6 +261,7 @@
       <Value>../hpl/sysctrl</Value>
       <Value>../hpl/systick</Value>
       <Value>../hri</Value>
+      <Value>../sleep_manager</Value>
       <Value>%24(PackRepoDir)\atmel\SAMD20_DFP\1.3.165\samd20\include</Value>
     </ListValues>
   </armgcc.assembler.general.IncludePaths>
@@ -276,6 +283,7 @@
       <Value>../hpl/sysctrl</Value>
       <Value>../hpl/systick</Value>
       <Value>../hri</Value>
+      <Value>../sleep_manager</Value>
       <Value>%24(PackRepoDir)\atmel\SAMD20_DFP\1.3.165\samd20\include</Value>
     </ListValues>
   </armgcc.preprocessingassembler.general.IncludePaths>
@@ -298,6 +306,11 @@
   <armgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value>%24(PackRepoDir)\arm\CMSIS\5.4.0\CMSIS\Core\Include\</Value>
+      <Value>../libs</Value>
+      <Value>../libs/config</Value>
+      <Value>../libs/display</Value>
+      <Value>../libs/lora_rf</Value>
+      <Value>../libs/rtc</Value>
       <Value>../Config</Value>
       <Value>../</Value>
       <Value>../examples</Value>
@@ -313,12 +326,8 @@
       <Value>../hpl/sysctrl</Value>
       <Value>../hpl/systick</Value>
       <Value>../hri</Value>
+      <Value>../sleep_manager</Value>
       <Value>%24(PackRepoDir)\atmel\SAMD20_DFP\1.3.165\samd20\include</Value>
-      <Value>../libs</Value>
-      <Value>../libs/config</Value>
-      <Value>../libs/display</Value>
-      <Value>../libs/lora_rf</Value>
-      <Value>../libs/rtc</Value>
     </ListValues>
   </armgcc.compiler.directories.IncludePaths>
   <armgcc.compiler.optimization.level>Optimize debugging experience (-Og)</armgcc.compiler.optimization.level>
@@ -359,6 +368,7 @@
       <Value>../hpl/sysctrl</Value>
       <Value>../hpl/systick</Value>
       <Value>../hri</Value>
+      <Value>../sleep_manager</Value>
       <Value>%24(PackRepoDir)\atmel\SAMD20_DFP\1.3.165\samd20\include</Value>
     </ListValues>
   </armgcc.assembler.general.IncludePaths>
@@ -381,6 +391,7 @@
       <Value>../hpl/sysctrl</Value>
       <Value>../hpl/systick</Value>
       <Value>../hri</Value>
+      <Value>../sleep_manager</Value>
       <Value>%24(PackRepoDir)\atmel\SAMD20_DFP\1.3.165\samd20\include</Value>
     </ListValues>
   </armgcc.preprocessingassembler.general.IncludePaths>
@@ -423,6 +434,9 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Config\RTE_Components.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Config\sleep_manager_config.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Device_Startup\startup_samd20.c">
@@ -1133,10 +1147,23 @@
     <Compile Include="main.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="sleep_manager\sleep_manager.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sleep_manager\sleep_manager.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sleep_manager_main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sleep_manager_main.h">
+      <SubType>compile</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Config\" />
     <Folder Include="Device_Startup\" />
+    <Folder Include="documentation\" />
     <Folder Include="examples\" />
     <Folder Include="hal\" />
     <Folder Include="hal\documentation\" />
@@ -1161,12 +1188,16 @@
     <Folder Include="libs\display" />
     <Folder Include="libs\config" />
     <Folder Include="libs\rtc" />
+    <Folder Include="sleep_manager\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Device_Startup\samd20e17_flash.ld">
       <SubType>compile</SubType>
     </None>
     <None Include="Device_Startup\samd20e17_sram.ld">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="documentation\sleep_manager.rst">
       <SubType>compile</SubType>
     </None>
     <None Include="hal\documentation\adc_sync.rst">

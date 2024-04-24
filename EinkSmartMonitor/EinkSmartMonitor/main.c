@@ -101,6 +101,7 @@ int main(void)
 	u8g2_DrawStr(&lcd, 15, 132, (void *)"Now 13.6C , 735mm, 63%");
 	
 	u8g2_SetFont(&lcd, u8g2_font_5x8_tf);
+	u8g2_DrawStr(&lcd, 260, 134, (void *)"ID M430");
 	u8g2_DrawStr(&lcd, 260, 142, (void *)"RF-79dB");
 	u8g2_DrawStr(&lcd, 260, 150, (void *)"B 3.94V");
 
@@ -125,10 +126,21 @@ int main(void)
 	while (1) {
 		if(RTC_IRQ_Ready()){
 			rtc_sync(&sys_rtc);
+			gpio_set_pin_level(GLD, true);
+			delay_ms(1);
+			gpio_set_pin_level(GLD, false);
+			
+			
+			SCB->SCR |= SCB_SCR_SLEEPDEEP_Msk;// | SCB_SCR_SLEEPONEXIT_Msk;  
+			NVMCTRL->CTRLB.reg |= NVMCTRL_CTRLB_SLEEPPRM_DISABLED;        
+			
+			
+			__DSB();
+			__WFI();
 		}
 		
 		//gpio_toggle_pin_level(GLD);
-		delay_ms(50);
+		//delay_ms(50);
 		//SPI0_Write_byte(0xA8);
 	}
 }

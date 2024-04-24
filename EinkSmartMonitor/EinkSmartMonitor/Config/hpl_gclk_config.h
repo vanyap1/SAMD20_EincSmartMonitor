@@ -83,7 +83,7 @@
 // <i> Indicates whether generic clock 1 configuration is enabled or not
 // <id> enable_gclk_gen_1
 #ifndef CONF_GCLK_GENERATOR_1_CONFIG
-#define CONF_GCLK_GENERATOR_1_CONFIG 0
+#define CONF_GCLK_GENERATOR_1_CONFIG 1
 #endif
 
 // <h> Generic Clock Generator Control
@@ -91,7 +91,7 @@
 // <i> Indicates whether Run in Standby is enabled or not
 // <id> gclk_arch_gen_1_RUNSTDBY
 #ifndef CONF_GCLK_GEN_1_RUNSTDBY
-#define CONF_GCLK_GEN_1_RUNSTDBY 0
+#define CONF_GCLK_GEN_1_RUNSTDBY 1
 #endif
 
 // <q> Divide Selection
@@ -105,7 +105,7 @@
 // <i> Indicates whether Output Enable is enabled or not
 // <id> gclk_arch_gen_1_oe
 #ifndef CONF_GCLK_GEN_1_OE
-#define CONF_GCLK_GEN_1_OE 0
+#define CONF_GCLK_GEN_1_OE 1
 #endif
 
 // <q> Output Off Value
@@ -126,7 +126,7 @@
 // <i> Indicates whether Generic Clock Generator Enable is enabled or not
 // <id> gclk_arch_gen_1_enable
 #ifndef CONF_GCLK_GEN_1_GENEN
-#define CONF_GCLK_GEN_1_GENEN 0
+#define CONF_GCLK_GEN_1_GENEN 1
 #endif
 
 // <y> Generic clock generator 1 source
@@ -140,7 +140,7 @@
 // <i> This defines the clock source for generic clock generator 1
 // <id> gclk_gen_1_oscillator
 #ifndef CONF_GCLK_GEN_1_SRC
-#define CONF_GCLK_GEN_1_SRC GCLK_GENCTRL_SRC_OSC32K
+#define CONF_GCLK_GEN_1_SRC GCLK_GENCTRL_SRC_OSCULP32K
 #endif
 // </h>
 

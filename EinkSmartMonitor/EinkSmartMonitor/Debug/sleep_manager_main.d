@@ -1,6 +1,7 @@
-atmel_start.d atmel_start.o: .././atmel_start.c ../atmel_start.h \
- ../driver_init.h ../atmel_start_pins.h ../hal/include/hal_gpio.h \
- ../hal/include/hpl_gpio.h ../hal/utils/include/compiler.h \
+sleep_manager_main.d sleep_manager_main.o: .././sleep_manager_main.c \
+ .././atmel_start.h .././driver_init.h .././atmel_start_pins.h \
+ ../hal/include/hal_gpio.h ../hal/include/hpl_gpio.h \
+ ../hal/utils/include/compiler.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdint.h \
@@ -82,15 +83,15 @@ atmel_start.d atmel_start.o: .././atmel_start.c ../atmel_start.h \
  ../hal/include/hal_spi_m_sync.h ../hal/include/hpl_spi_m_sync.h \
  ../hal/include/hpl_spi.h ../hal/utils/include/utils.h \
  ../hal/include/hpl_spi_sync.h ../hal/include/hal_i2c_m_sync.h \
- ../hal/include/hpl_i2c_m_sync.h ../sleep_manager_main.h \
+ ../hal/include/hpl_i2c_m_sync.h .././sleep_manager_main.h \
  ../sleep_manager/sleep_manager.h ../hal/utils/include/utils_event.h \
  ../hal/utils/include/utils_list.h ../hal/utils/include/events.h
 
-../atmel_start.h:
+.././atmel_start.h:
 
-../driver_init.h:
+.././driver_init.h:
 
-../atmel_start_pins.h:
+.././atmel_start_pins.h:
 
 ../hal/include/hal_gpio.h:
 
@@ -310,7 +311,7 @@ C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD20_DFP\1.3.165\samd20\
 
 ../hal/include/hpl_i2c_m_sync.h:
 
-../sleep_manager_main.h:
+.././sleep_manager_main.h:
 
 ../sleep_manager/sleep_manager.h:
 

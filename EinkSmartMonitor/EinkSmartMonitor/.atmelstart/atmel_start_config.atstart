@@ -18,7 +18,14 @@ board:
   device: SAMD20E17A-MN
 details: null
 application: null
-middlewares: {}
+middlewares:
+  SLEEP_MANAGER_0:
+    user_label: SLEEP_MANAGER_0
+    configuration: {}
+    definition: Atmel:Sleep_Manager:0.0.1::Sleep_manager
+    functionality: Sleep_Manager
+    api: Sleep-Manager:Sleep-Manager:API
+    dependencies: {}
 drivers:
   ADC_0:
     user_label: ADC_0
@@ -181,11 +188,11 @@ drivers:
       domain_group:
         nodes:
         - name: EIC
-          input: Generic clock generator 0
+          input: Generic clock generator 1
           external: false
           external_frequency: 0
         configuration:
-          eic_gclk_selection: Generic clock generator 0
+          eic_gclk_selection: Generic clock generator 1
   GCLK:
     user_label: GCLK
     definition: Atmel:SAMD20_Drivers:0.0.1::SAMD20E17A-MN::GCLK::driver_config_definition::GCLK::HAL:HPL:GCLK
@@ -206,7 +213,7 @@ drivers:
       _$freq_output_Generic clock generator 7: 400000
       enable_gclk_gen_0: true
       enable_gclk_gen_0__externalclock: 1000000
-      enable_gclk_gen_1: false
+      enable_gclk_gen_1: true
       enable_gclk_gen_1__externalclock: 1000000
       enable_gclk_gen_2: false
       enable_gclk_gen_2__externalclock: 1000000
@@ -225,10 +232,10 @@ drivers:
       gclk_arch_gen_0_idc: false
       gclk_arch_gen_0_oe: true
       gclk_arch_gen_0_oov: false
-      gclk_arch_gen_1_RUNSTDBY: false
-      gclk_arch_gen_1_enable: false
+      gclk_arch_gen_1_RUNSTDBY: true
+      gclk_arch_gen_1_enable: true
       gclk_arch_gen_1_idc: false
-      gclk_arch_gen_1_oe: false
+      gclk_arch_gen_1_oe: true
       gclk_arch_gen_1_oov: false
       gclk_arch_gen_2_RUNSTDBY: false
       gclk_arch_gen_2_enable: false
@@ -265,7 +272,7 @@ drivers:
       gclk_gen_0_oscillator: Digital Frequency Locked Loop (DFLL48M)
       gclk_gen_1_div: 1
       gclk_gen_1_div_sel: false
-      gclk_gen_1_oscillator: 32kHz High Accuracy Internal Oscillator (OSC32K)
+      gclk_gen_1_oscillator: 32kHz Ultra Low Power Internal Oscillator (OSCULP32K)
       gclk_gen_2_div: 1
       gclk_gen_2_div_sel: false
       gclk_gen_2_oscillator: External Crystal Oscillator 0.4-32MHz (XOSC)
