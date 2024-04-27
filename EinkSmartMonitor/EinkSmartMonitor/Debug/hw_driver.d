@@ -85,7 +85,8 @@ hw_driver.d hw_driver.o: .././hw_driver.c .././hw_driver.h \
  ../hal/include/hpl_i2c_m_sync.h ../Config/peripheral_clk_config.h \
  ../hpl/gclk/hpl_gclk_base.h ../hpl/pm/hpl_pm_base.h \
  ../hpl/adc/hpl_adc_base.h ../hal/include/hpl_adc_async.h \
- ../hal/include/hpl_adc_sync.h ../hal/include/hpl_irq.h
+ ../hal/include/hpl_adc_sync.h ../hal/include/hpl_irq.h \
+ ../libs/lora_rf/RFM69.h
 
 .././hw_driver.h:
 
@@ -322,3 +323,5 @@ C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD20_DFP\1.3.165\samd20\
 ../hal/include/hpl_adc_sync.h:
 
 ../hal/include/hpl_irq.h:
+
+../libs/lora_rf/RFM69.h:

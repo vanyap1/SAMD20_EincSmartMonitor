@@ -13,6 +13,9 @@
 #include <hpl_pm_base.h>
 
 #include <hpl_adc_base.h>
+#include "RFM69.h"
+
+
 
 struct spi_m_sync_descriptor SPI_0;
 struct adc_sync_descriptor ADC_0;
@@ -23,6 +26,8 @@ struct io_descriptor *i2c0;
 
 uint8_t rtcIntCount = 0;
 uint8_t rfIntCount = 0;
+rfHeader* ptr_rfHeader;
+
 
 static void I2C_RTC_Handler(void){
 	if (rtcIntCount < 255) {
@@ -45,9 +50,9 @@ static void RF_int_Handler(void){
 
 bool rf_isReady(){
 	if (rfIntCount != 0){
-		//ptr_rfHeader = data_ready();
+		ptr_rfHeader = data_ready();
 		rfIntCount = 0;
-		//return (ptr_rfHeader->dataValid == 0 ) ? false : true;
+		return (ptr_rfHeader->dataValid == 0 ) ? false : true;
 		return true;
 	}
 	return false;

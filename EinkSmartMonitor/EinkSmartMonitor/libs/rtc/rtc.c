@@ -11,20 +11,21 @@ uint8_t rtc_config_1[] = {TIMER_COUNTER0_REG, 0x40 , 0x00};
 uint8_t rtc_config_2[] = {EXT_REG, 0x00};
 uint8_t rtc_config_3[] = {CONTROLL_REG, 0x00};
 
+//
 
 
- 	
-char* day[] = {
-	"Sun",
-	"Mon",
-	"Tue",
-	"Wed",
-	"Thu",
-	"Fri",
-	"Sat"
+uint8_t* daysShort[] = {
+ 	"Sun",
+ 	"Mon",
+ 	"Tue",
+ 	"Wed",
+ 	"Thu",
+ 	"Fri",
+ 	"Sat"
 };
 
-
+ 	
+	 
 
 void rtc_int_enable(rtc_date *RTCx){
 	rtc_config_3[1] |= (1 << TIE);

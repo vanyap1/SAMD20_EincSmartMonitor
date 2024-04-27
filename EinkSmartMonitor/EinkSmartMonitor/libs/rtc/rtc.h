@@ -7,8 +7,8 @@
 
 #include <stdint.h>
 
-#ifndef RTC_H_
-#define RTC_H_
+#ifndef RTC_h
+#define RTC_h
 
 
 
@@ -62,11 +62,6 @@
 
 //0Eh, 1Eh � Flag Register
 
-#endif
-
-
-
-
 
 typedef struct calendar_date {
 	uint8_t second;        //!< 0-59
@@ -77,6 +72,18 @@ typedef struct calendar_date {
 	uint16_t year;         //!< 1970-2105
 	uint8_t dayofweek;     //!< 0 Sunday  - 6 Saturday
 } rtc_date;
+
+
+typedef struct weather_struc {
+	int16_t currentTemp;		//241 = 24.1 Celsius degree
+	uint8_t currentHum;			// in %
+	uint16_t currentPress;		// in mmHg
+	
+	int16_t dayTempPart[4];		// x =  dayTempPart1 / 10 (241 = 24.1 Celsius degree)
+	uint16_t dayPressPart[4];		// Pressure morning; 4 part of day
+	uint8_t dayWetIcon[4];
+} weather_day;
+
 
 //second, minute, hour, date, month, year, dayofweek
 
@@ -89,3 +96,5 @@ void rtc_set(rtc_date *RTCx);
 uint8_t BCDtoDEC(uint8_t val);
 uint8_t DECtoBCD(uint8_t val);
 uint32_t convert_to_timestamp(const rtc_date *date);
+
+#endif
