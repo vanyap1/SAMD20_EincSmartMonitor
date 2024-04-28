@@ -70,6 +70,13 @@ typedef struct {
 	uint8_t dataCRC;
 }rfHeader;
 
+typedef struct {
+	uint16_t myId;				//Tag id
+	uint8_t responseRequest;	//0 - only report, 1 - synchronization request
+	uint16_t myBatVoltage;		//Built in battery voltage in mV
+	uint8_t myHumidity;			//SHT21 Humidity value
+	uint16_t myTemperature;		//		Temperature value
+} requestData;
 
 
 // Function Declerations

@@ -11,31 +11,17 @@ uint8_t rtc_config_1[] = {TIMER_COUNTER0_REG, 0x40 , 0x00};
 uint8_t rtc_config_2[] = {EXT_REG, 0x00};
 uint8_t rtc_config_3[] = {CONTROLL_REG, 0x00};
 
-//
 
-
-uint8_t* daysShort[] = {
- 	"Sun",
- 	"Mon",
- 	"Tue",
- 	"Wed",
- 	"Thu",
- 	"Fri",
- 	"Sat"
-};
-
- 	
+uint8_t* daysShort[] = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
+uint8_t *daysFull[7] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}; 	
 	 
 
 void rtc_int_enable(rtc_date *RTCx){
 	rtc_config_3[1] |= (1 << TIE);
 	rtc_config_2[1] |= (1 << TD) | (1 << TE);
-	
 	RTC_write_batch(RTC_ADDR, rtc_config_1,sizeof(rtc_config_1));
 	RTC_write_batch(RTC_ADDR, rtc_config_2,sizeof(rtc_config_2));
 	RTC_write_batch(RTC_ADDR, rtc_config_3,sizeof(rtc_config_3));
-	
-	
 }
 
 void rtc_sync(rtc_date *RTCx){

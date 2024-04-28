@@ -10,7 +10,8 @@
 #ifndef RTC_h
 #define RTC_h
 
-
+extern uint8_t* daysFull[];
+extern uint8_t* daysShort[];
 
 #define RTC_ADDR		0x32
 
@@ -28,11 +29,6 @@
 #define DATE_ALM_REG		0x0A
 #define TIMER_COUNTER0_REG	0x0B
 #define TIMER_COUNTER1_REG	0x0C
-
-
-
-
-
 
 //0Dh, 1Dh � Extension Register
 #define EXT_REG				0x0D
@@ -62,7 +58,6 @@
 
 //0Eh, 1Eh � Flag Register
 
-
 typedef struct calendar_date {
 	uint8_t second;        //!< 0-59
 	uint8_t minute;        //!< 0-59
@@ -74,20 +69,18 @@ typedef struct calendar_date {
 } rtc_date;
 
 
-typedef struct weather_struc {
+typedef struct weather_struc {	//Eink weather monitor related
 	int16_t currentTemp;		//241 = 24.1 Celsius degree
 	uint8_t currentHum;			// in %
 	uint16_t currentPress;		// in mmHg
 	
 	int16_t dayTempPart[4];		// x =  dayTempPart1 / 10 (241 = 24.1 Celsius degree)
-	uint16_t dayPressPart[4];		// Pressure morning; 4 part of day
+	uint16_t dayPressPart[4];	// Pressure morning; 4 part of day
 	uint8_t dayWetIcon[4];
 } weather_day;
 
 
-//second, minute, hour, date, month, year, dayofweek
 
-	
 	
 void rtc_int_enable(rtc_date *RTCx);
 void rtc_sync(rtc_date *RTCx);

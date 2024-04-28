@@ -18,7 +18,7 @@
 
 
 struct spi_m_sync_descriptor SPI_0;
-struct adc_sync_descriptor ADC_0;
+struct adc_sync_descriptor ADC_BAT;
 struct i2c_m_sync_desc I2C_0;
 
 struct io_descriptor *spi0;
@@ -216,7 +216,27 @@ void IRQ_init(void){
 	ext_irq_init();
 }
 
+void adcInit(void){
+	_pm_enable_bus_clock(PM_BUS_APBC, ADC);
+	_gclk_enable_channel(ADC_GCLK_ID, CONF_GCLK_ADC_SRC);
+	
+	gpio_set_pin_direction(PA06, GPIO_DIRECTION_OFF);
+	gpio_set_pin_function(PA06, PINMUX_PA06B_ADC_AIN6);
+	
+	adc_sync_init(&ADC_BAT, ADC, (void *)NULL);
+	
+}
 
+uint16_t getBatVoltage(void){
+	
+	
+	uint8_t buffer[2];
+	adc_sync_enable_channel(&ADC_BAT, 0);
+	//while (1) {
+		adc_sync_read_channel(&ADC_BAT, 0, buffer, 2);
+	//}
+	return (buffer[2] << 8) + buffer[1];
+}
 
 void mcu_init(void)
 {
@@ -225,7 +245,7 @@ void mcu_init(void)
 	SPI_init();
 	I2C_init();
 	IRQ_init();
-	
+	adcInit();
 	
 	ext_irq_register(RTC_INT, I2C_RTC_Handler);
 	ext_irq_register(RF_INT, RF_int_Handler);	

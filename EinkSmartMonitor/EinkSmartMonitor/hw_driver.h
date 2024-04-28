@@ -57,6 +57,8 @@ void GPIO_init(void);
 void SPI_init(void);
 void I2C_init(void);
 void IRQ_init(void);
+void adcInit(void);
+uint16_t getBatVoltage(void);
 
 
 
